@@ -16,13 +16,15 @@ dir="bny"
 # git branch
 
 # 切换到主分支，构建站点并提交更改
+git checkout -b master
 git checkout master
 jekyll build
 git add .
-git commit -m "Update main"
+git commit -m "Update master"
 git push origin master --force
 
 # 切换到 gh-pages 分支，清空内容
+git checkout -b gh-pages
 git checkout gh-pages
 git rm -rf .
 
