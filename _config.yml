@@ -20,6 +20,11 @@ assets:
   compress: true
   cache: false
 
+search:
+  enabled: true
+  index:
+    posts: true
+
 # paginate: 2
 # paginate_path: "/page:num"
 

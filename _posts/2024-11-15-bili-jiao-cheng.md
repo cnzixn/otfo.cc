@@ -1,6 +1,11 @@
 ---
+layout: post
 title: "视频教学"
+date: 2024-11-18
+author: "Bny"
+tags: ["news", ]
 scode: bili
+reading_time: 1
 ---
 
 > 安装模组，本质上就是往安装包里“添加”或“替换”文件，在手机上用“MT管理器”比较好操作......  

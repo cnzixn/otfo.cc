@@ -3,6 +3,7 @@ layout: post
 title: "日志 24.11.01"
 date: 2024-11-14
 tags: ["logs", ]
+reading_time: 1
 ---
 
 > 241101 框架更新日志...
