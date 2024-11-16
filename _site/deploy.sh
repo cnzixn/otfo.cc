@@ -41,6 +41,7 @@ cp ./"$dir"/404.html .
 git add .
 git reset deploy.sh
 git reset start.sh
+git reset _site
 git commit -m "Deploy gh-pages"
 git push origin gh-pages --force
 
