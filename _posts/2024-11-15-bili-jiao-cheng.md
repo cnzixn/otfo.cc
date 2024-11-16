@@ -12,7 +12,7 @@ scode: bili
     src="https://player.bilibili.com/player.html?bvid=BV1k8UFYAEjq" 
     width="100%" 
     height="auto" 
-    style="aspect-ratio: 18/9;" 
+    style="aspect-ratio: 4/3;" 
     frameborder="0" 
     scrolling="yes" 
     allowfullscreen="true">

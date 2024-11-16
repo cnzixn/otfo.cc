@@ -6,13 +6,14 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* 确保 wrapper 至少占据整个视口的高度 */
+    min-height: 80vh; /* 确保 wrapper 至少占据整个视口的高度 */
 }
 
 .content {
     flex: 1; /* 让内容区域占据剩余的空间 */
 }
 
+/*主页内容(链接)*/
 .home-page-content {
   display: flex;
   flex-direction: column;
@@ -20,7 +21,12 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .home-page-content a {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  padding: 2px 25%; /* 调整内边距，使点击区域更大 */
+  margin: 10% auto; /* 给每个链接添加间隔 */
+  text-decoration: none; /* 去掉默认下划线 */
+  border: 1px solid #ccc; /* 为每个链接添加边框 */
+  border-radius: 5px; /* 可选，圆角边框 */
 }
 
 /* 错误消息样式 */
