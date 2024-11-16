@@ -37,6 +37,7 @@ layout: page
 
 {{content}}
 
+<!-- 标签会被“页脚”挡住，请保持这种情况 -->
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}

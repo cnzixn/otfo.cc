@@ -22,7 +22,7 @@
             <a href="{{ '/section/posts' | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
           {% endif %}
 
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
 
           <!-- 首页特有的 <header> 代码 -->
         {% else %}
@@ -30,10 +30,10 @@
           <!-- 导航栏 -->
           <div class="navbar">
             <div class="navbar-scroll-left">&#8249;&#8249;</div>
-            <a href={{ '/' | relative_url}} class="{% if page.url == '/' %}current{% endif %}">主页</a>
+            <!-- <a href={{ '/' | relative_url}}>首页</a> -->
             <a href={{ '/section/posts' | relative_url}} class="{% if page.url contains '/section/posts' %}current{% endif %}">全部</a>
-            <a href={{ '/section/files' | relative_url}} class="{% if page.url contains '/section/files' %}current{% endif %}">文件</a>
             <a href={{ '/section/news' | relative_url}} class="{% if page.url contains '/section/news' %}current{% endif %}">资讯</a>
+            <a href={{ '/section/files' | relative_url}} class="{% if page.url contains '/section/files' %}current{% endif %}">文件</a>
             <a href={{ '/section/logs' | relative_url}} class="{% if page.url contains '/section/logs' %}current{% endif %}">日志</a>
             <a href={{ '/section/other' | relative_url}} class="{% if page.url contains '/section/other' %}current{% endif %}">其他</a>
             <a href={{ '/search' | relative_url}} class="{% if page.url == '/search' %}current{% endif %}">搜索</a>

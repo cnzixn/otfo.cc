@@ -575,29 +575,22 @@ footer {
 /*导航*/
 /* 导航栏样式 */
 .navbar {
-  display: flex;
-  padding: 1rem;
-  overflow-x: auto;
-  white-space: nowrap;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #f8f9fa; /* 可选背景颜色 */
-  z-index: 1000;
-}
-
-body {
-  padding-top: 3rem; /* 确保内容不会被导航栏遮挡，根据导航栏高度调整 */
+  display: flex; /* 使用 Flexbox 布局，子项将按行排列 */
+  padding: 1rem; /* 内边距，设置导航栏的上下左右间距 */
+  overflow-x: auto; /* 水平溢出时启用滚动条 */
+  white-space: nowrap; /* 禁止文本换行，确保所有导航项在一行 */
+  text-align: center; /* 导航项的文本居中 */
+  position: fixed; /* 固定在视口顶部，不随页面滚动而消失 */
+  justify-content: center; /* 水平居中 */
+  top: 0; /* 导航栏位于页面顶部 */
+  left: 0; /* 导航栏从页面左边开始 */
+  right: 0; /* 导航栏到达页面的右边 */
+  background-color: #f8f9fa; /* 设置背景颜色为浅灰色，确保导航栏背景明显 */
+  z-index: 1000; /* 设置较高的层级，确保导航栏在其他元素之上 */
 }
 
 .navbar::-webkit-scrollbar {
   display: none; /* 隐藏滚动条（Chrome, Safari） */
-}
-
-.navbar a:hover {
-  color: #888888;
 }
 
 .navbar a {
@@ -619,8 +612,8 @@ body {
 
 .navbar-scroll-left,
 .navbar-scroll-right {
-  padding: 0 10px;
-  font-size: 1rem;
+  padding: 0 5px;
+  font-size: 16px;
   color: #666;
 }
 
@@ -634,14 +627,14 @@ body {
   margin-bottom: 2rem; /* 设置每个 li 元素底部间距 */
 }
 .section li:last-child {
-  margin-bottom: 0; /* 最后一个 li 元素不需要底部间距 */
+  margin-bottom: 3rem; /* 最后一个 li 元素底部间距 */
 }
 
 /* 文章卡片容器样式 */
 .section-card {
   list-style: none; /* 去掉列表点 */
   max-width: 800px;
-  margin: 20px 0px;
+  margin: 1rem 0px;
   padding: 15px;
   background-color: #fff;
   border: 1px solid #ccc;
@@ -760,6 +753,11 @@ body {
 }
 
 /*默认*/
+/* 确保 body 和 html 高度为 100% */
+html, body {
+  height: 90%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 20px 0;
@@ -768,11 +766,12 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 80vh; /* 确保 wrapper 至少占据整个视口的高度 */
 }
 
 .content {
   flex: 1; /* 让内容区域占据剩余的空间 */
+  padding-top: 3rem; /* 给顶部留出空间，避免被导航栏遮挡 */
+  padding-bottom: 2.5rem; /* 给底部留出空间，避免被页脚遮挡 */
 }
 
 /*主页内容(链接)*/
@@ -785,8 +784,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .home-page-content a {
   font-size: 2rem;
-  padding: 2px 25%; /* 调整内边距，使点击区域更大 */
-  margin: 10% auto; /* 给每个链接添加间隔 */
+  padding: 2px 6px; /* 调整内边距，使点击区域更大 */
+  margin: 5px auto; /* 给每个链接添加间隔 */
   text-decoration: none; /* 去掉默认下划线 */
   border: 1px solid #ccc; /* 为每个链接添加边框 */
   border-radius: 5px; /* 可选，圆角边框 */
@@ -806,15 +805,16 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
   display: flex;
-  padding: 5px; /* 可选：增加一些内边距 */
+  padding: 1rem 0px 0; /* 可选：增加一些内边距 */
   overflow-x: auto;
   white-space: nowrap;
-  justify-content: center; /* 水平居中 */
+  justify-content: center; /* 水平居中内容 */
   text-align: center; /* 使文本内容在每行内居中 */
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
+  width: 100%; /* 确保背景宽度为100% */
   background-color: #f8f9fa; /* 可选背景颜色 */
   z-index: 1000;
 }

@@ -1,5 +1,5 @@
 ---
-title: "Bili"
+title: "视频教学"
 scode: bili
 ---
 
@@ -12,7 +12,7 @@ scode: bili
     src="https://player.bilibili.com/player.html?bvid=BV1k8UFYAEjq" 
     width="100%" 
     height="auto" 
-    style="aspect-ratio: 4/3;" 
+    style="aspect-ratio: 16/9;" 
     frameborder="0" 
     scrolling="yes" 
     allowfullscreen="true">
