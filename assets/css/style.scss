@@ -1,0 +1,14 @@
+---
+---
+
+@use "jekyll-theme-minimal";
+
+
+/*导航*/
+@use "web-navbar";
+/*版块*/
+@use "web-section";
+/*文章*/
+@use "web-post";
+/*默认*/
+@use "web-defult";
