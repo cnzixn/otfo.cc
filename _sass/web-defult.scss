@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+  margin:20px 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 确保 wrapper 至少占据整个视口的高度 */
+}
+
+.content {
+    flex: 1; /* 让内容区域占据剩余的空间 */
+}
+
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.home-page-content a {
+  font-size: 2.5rem;
+}
+
+/* 错误消息样式 */
+.not-found {
+    position: absolute;      /* 设置绝对定位 */
+    top: 50%;                /* 距离顶部50% */
+    left: 50%;               /* 距离左边50% */
+    transform: translate(-50%, -50%); /* 向左和向上移动自身宽度和高度的一半 */
+    font-size: 8rem;         /* 大字体 */
+    color: #333;
+    letter-spacing: 0.1em;   /* 字母间距 */
+    text-align: center;      /* 使文本水平居中 */
+}
+
+footer {
+    display: flex;
+    padding: 5px; /* 可选：增加一些内边距 */
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: center; /* 水平居中 */
+    text-align: center; /* 使文本内容在每行内居中 */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f8f9fa; /* 可选背景颜色 */
+    z-index: 1000;
+}

@@ -1,0 +1,42 @@
+---
+layout: page
+---
+
+<h1>{{ page.title }}</h1>
+
+<small>
+  编辑：{{ page.date | date: "%Y-%m-%d" " }}, 作者: {{ page.author | default: site.author }}
+</small>
+
+<!-- 分享链接 -->
+<script src="{{ '/assets/js/copy_short_link.js' | relative_url }}"></script>
+<div>
+  <small>分享：
+    <input
+      type="text"
+      id="shortLink"
+      value="{{ page.short_url }}"
+      readonly
+      onclick="copyShortLink()"
+      class="short-link-input"
+    />
+  </small>
+</div>
+
+<div class="post-toc">
+    <details class="post-toc-details">
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="post-toc-title">文章目录</span>
+        </summary>
+        <div class="post-toc-inner">
+          <!-- 由自定义插件 toc-generator 生成 -->
+          {% toc_content %}
+        </div>
+    </details>
+</div>
+
+{{content}}
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}

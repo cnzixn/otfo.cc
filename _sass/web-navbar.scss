@@ -1,0 +1,52 @@
+/* 导航栏样式 */
+.navbar {
+  display: flex;
+  padding: 1rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f9fa; /* 可选背景颜色 */
+  z-index: 1000;
+}
+
+body {
+  padding-top: 3rem; /* 确保内容不会被导航栏遮挡，根据导航栏高度调整 */
+}
+
+.navbar::-webkit-scrollbar {
+  display: none; /* 隐藏滚动条（Chrome, Safari） */
+}
+
+.navbar a:hover {
+  color: #888888;
+}
+
+.navbar a {
+  color: #888888;
+  display: inline-block;
+  padding: 2px 4px; /* 调整内边距，使点击区域更大 */
+  margin: 0 2px; /* 给每个链接添加间隔 */
+  text-decoration: none; /* 去掉默认下划线 */
+  font-size: 16px; /* 调整文字大小 */
+  border: 1px solid #ccc; /* 为每个链接添加边框 */
+  border-radius: 5px; /* 可选，圆角边框 */
+}
+
+.navbar a.current {
+  font-weight: bold; /* 高亮当前链接 */
+  color: #000; /* 高亮当前链接文字颜色 */
+  border-color: #000; /* 高亮当前链接边框颜色 */
+}
+
+
+
+.navbar-scroll-left,
+.navbar-scroll-right {
+    padding: 0 10px;
+    font-size: 1rem;
+    color: #666;
+}
