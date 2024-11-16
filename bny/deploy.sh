@@ -35,14 +35,15 @@ cp -r ./_site ./bny
 cp -r ./bny/s .
 cp ./bny/index.html .
 cp ./bny/404.html .
+git rm -rf deploy.sh
+git rm -rf start.sh
+git rm -rf _site
 
 # 提交并推送到 gh-pages 分支
 git add .
-git reset deploy.sh
-git reset start.sh
-git reset _site
 git commit -m "Update gh-pages at $(date '+%Y-%m-%d %H:%M:%S')"
 git push origin gh-pages --force
+git commit -m "w, not Update gh-pages at $(date '+%Y-%m-%d %H:%M:%S')"
 
 # 返回到主分支
 git checkout master
