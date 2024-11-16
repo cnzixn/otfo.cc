@@ -32,10 +32,10 @@ git rm -rf .
 git checkout master -- CNAME
 git checkout master -- .gitignore
 git checkout master -- _site
-cp -r ./_site ./"$dir"
-cp -r ./"$dir"/s .
-# cp ./"$dir"/index.html .
-cp ./"$dir"/404.html .
+cp -r ./_site ./bny
+cp -r ./bny/s .
+cp ./bny/index.html .
+cp ./bny/404.html .
 
 # 提交并推送到 gh-pages 分支
 git add .
@@ -47,7 +47,7 @@ git push origin gh-pages --force
 
 # 返回到主分支
 git checkout master
-rm -rf ./"$dir"
+rm -rf ./bny
 git add .
 git commit -m "Update gh-pages"
 
