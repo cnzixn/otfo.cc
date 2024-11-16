@@ -29,10 +29,9 @@ git checkout gh-pages
 git rm -rf .
 
 # 将 _site 文件夹内容复制到 gh-pages 分支根目录
-git checkout main -- CNAME
-git checkout main -- .gitignore
-git checkout main -- _site
-git checkout main -- search.json
+git checkout master -- CNAME
+git checkout master -- .gitignore
+git checkout master -- _site
 cp -r ./_site ./"$dir"
 cp -r ./"$dir"/s .
 # cp ./"$dir"/index.html .
@@ -46,7 +45,7 @@ git commit -m "Deploy gh-pages"
 git push origin gh-pages --force
 
 # 返回到主分支
-git checkout main
+git checkout master
 rm -rf ./"$dir"
 git add .
 git commit -m "Update gh-pages"
