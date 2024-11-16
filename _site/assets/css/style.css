@@ -677,6 +677,23 @@ body {
 }
 
 /*文章*/
+.short-link-input:focus {
+  outline: none;
+  border: 1px solid #ccc; /* 可选，保持原有边框 */
+}
+
+/* 取消 post-toc-details 选中或聚焦时的高亮 */
+.post-toc-details:focus,
+.post-toc-details:active {
+  outline: none;
+  border: none; /* 可选，取消边框高亮 */
+}
+
+/* 取消选中文本时的高亮背景 */
+.post-toc-details::selection {
+  background: transparent; /* 不显示选中文本时的背景色 */
+}
+
 /* 文章目录外层容器 */
 .post-toc {
   margin: 20px 0; /* 设置上下间距 */
