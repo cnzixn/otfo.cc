@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "Search"
+layout: section
 ---
 
-<h1>Search Results</h1>
-
+暂未开放
