@@ -10,8 +10,10 @@ logo: /assets/img/logo.jpg
 # google_analytics:
 
 # theme: jekyll-theme-minimal
-
+# 输出 JSON 文件
 plugins:
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-admin
   - jekyll-assets
   - jekyll-seo-tag
@@ -34,3 +36,8 @@ defaults:
     values:
       layout: post
       tags: ["other"]
+  - scope:
+      path: ""
+      type: "json"
+    values:
+      layout: null

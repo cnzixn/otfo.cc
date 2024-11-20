@@ -5,12 +5,12 @@ layout: page
 <h1>{{ page.title }}</h1>
 
 <small>
-  编辑：{{ page.date | date: "%Y-%m-%d" " }}, 作者: {{ page.author | default: site.author }}
+  编辑：{{ page.date | date: "%Y-%m-%d" }}, 作者: {{ page.author | default: site.author }}
 </small>
 
 <!-- 分享链接 -->
 <script src="{{ '/assets/js/copy_short_link.js' | relative_url }}"></script>
-<div>
+<div class="post-link">
   <small>分享：
     <input
       type="text"
@@ -23,21 +23,22 @@ layout: page
   </small>
 </div>
 
-<div class="post-toc">
-    <details class="post-toc-details">
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="post-toc-title">文章目录</span>
-        </summary>
-        <div class="post-toc-inner">
-          <!-- 由自定义插件 toc-generator 生成 -->
-          {% toc_content %}
-        </div>
-    </details>
-</div>
+{% if page.toc %}
+	<div class="post-toc">
+	    <details class="post-toc-details">
+	        <summary accesskey="c" title="(Alt + C)">
+	            <span class="post-toc-title">文章目录</span>
+	        </summary>
+	        <div class="post-toc-inner">
+	          <!-- 由自定义插件 toc-generator 生成 -->
+	          {% toc_content %}
+	        </div>
+	    </details>
+	</div>
+{% endif %}
 
 {{content}}
 
-<!-- 标签会被“页脚”挡住，请保持这种情况 -->
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
