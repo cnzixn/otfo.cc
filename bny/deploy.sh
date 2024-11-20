@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# cd /sdcard/acode/otfo.cc/
-# bash deploy.sh
+# cd /sdcard/acode/otfo/ ; bash deploy.sh
 
 # 网页子目录
 dir="bny"
