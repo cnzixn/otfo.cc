@@ -744,6 +744,24 @@ footer {
   padding-left: 0.1rem; /* 左边距 0.2rem */
 }
 
+.post-custom-line {
+  color: #666;
+  border-top: 1.5px solid #ddd;
+  margin: 20px 0;
+}
+
+/*评论区*/
+#disqus_placeholder {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  padding: 20px;
+  border: 1px dashed #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
 /*文章视频播放器*/
 .post-video-player {
   width: 100%; /* 设置宽度为100% */
@@ -831,8 +849,8 @@ blockquote {
 }
 
 .home-page-content a {
-  font-size: 2rem;
-  padding: 10px 30px; /* 增加内边距，使点击区域更大 */
+  font-size: 1.6rem;
+  padding: 5px 50px; /* 增加内边距，使点击区域更大 */
   margin: 1rem 0.5rem; /* 给每个链接上下和左右添加间隔 */
   display: inline-block; /* 确保链接按块级元素显示，方便设置间隔 */
   text-decoration: none; /* 去掉默认下划线 */
