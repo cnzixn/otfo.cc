@@ -8,12 +8,6 @@ title: 赞助
 <p>如果您觉得我的内容对您有帮助，可以考虑请我喝一杯咖啡。</p>
 
 <div class="donation">
-  <div class="paypal">
-    <a href="https://paypal.me/otfocc" target="_blank">
-      <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="PayPal 支付" />
-    </a>
-  </div>
-  <small>点击图片，进入 PayPal 页面</small>
   <div class="qr-container">
     <div class="qrcode">
       <img src="{{ '/assets/img/alipay-qrcode.png' | relative_url }}" alt="支付宝二维码" />
@@ -48,12 +42,5 @@ title: 赞助
     border: 2px solid #ddd;
     padding: 0px;
     background-color: #fff;
-  }
-  .paypal {
-    text-align: center;
-    padding: 20px;
-  }
-  .paypal img {
-    width: 80%;
   }
 </style>

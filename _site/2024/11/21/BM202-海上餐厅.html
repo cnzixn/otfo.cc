@@ -53,12 +53,12 @@
           <div class="navbar">
             <div class="navbar-scroll-left">&#8249;&#8249;</div>
             <!-- <a href=/bny/>首页</a> -->
-            <a href=/bny/section/posts class="">全部</a>
-            <a href=/bny/section/news class="">资讯</a>
-            <a href=/bny/section/files class="">文件</a>
-            <a href=/bny/section/logs class="">日志</a>
-            <a href=/bny/section/other class="">其他</a>
             <a href=/bny/search class="">搜索</a>
+            <a href=/bny/section/news class="">资讯</a>
+            <a href=/bny/section/logs class="">日志</a>
+            <a href=/bny/section/mods class="">模组</a>
+            <a href=/bny/section/posts class="">全部</a>
+            <a href=/bny/donate class="">捐赠</a>
             <div class="navbar-scroll-right">&#8250;&#8250;</div>
           </div>
           <!-- 其他页面通用的 <header> 代码 -->
@@ -96,34 +96,18 @@
 
 <hr />
 
+<h2 id="模组简介">模组简介</h2>
+
+<p>内容有待更新…</p>
+
+<hr />
+
 <h2 id="文件下载">文件下载</h2>
 <ul>
-  <li><strong>百度网盘</strong>：<a href="https://pan.baidu.com/s/1b-hIFyBA3QkqRtdgBNYS5A?pwd=otfc">点击下载</a>  <strong>提取码</strong>：otfc</li>
-  <li><strong>夸克网盘</strong>：<a href="https://pan.quark.cn/s/226f57a4e1b0?pwd=69rz">点击下载</a>  <strong>提取码</strong>：69rz</li>
-  <li><strong>迅雷网盘</strong>：<a href="https://pan.xunlei.com/s/VOCCbizoQxxhHVog5IlDWfDuA1?pwd=t83u">点击下载</a>  <strong>提取码</strong>：t83u</li>
+  <li><strong>线路一</strong>：<a href="https://pan.baidu.com/s/1b-hIFyBA3QkqRtdgBNYS5A?pwd=otfc">百度网盘</a>  提取码：otfc</li>
+  <li><strong>线路二</strong>：<a href="https://pan.quark.cn/s/226f57a4e1b0?pwd=69rz">夸克网盘</a>  提取码：69rz</li>
+  <li><strong>线路三</strong>：<a href="https://pan.xunlei.com/s/VOCCbizoQxxhHVog5IlDWfDuA1?pwd=t83u">迅雷网盘</a>  提取码：t83u</li>
 </ul>
-
-<hr />
-
-<h2 id="游戏截图">游戏截图</h2>
-<blockquote>
-  <p>以下是模组相关的游戏截图展示：</p>
-</blockquote>
-
-<p><img src="https://example.com/screenshot1.jpg" alt="示例图片" /><br />
-<img src="https://example.com/screenshot2.jpg" alt="示例图片" /></p>
-
-<hr />
-
-<h2 id="模组简介">模组简介</h2>
-<blockquote>
-  <p>本模组的核心功能和特点如下：</p>
-  <ul>
-    <li>特点 1</li>
-    <li>特点 2</li>
-    <li>特点 3</li>
-  </ul>
-</blockquote>
 
 <hr />
 
@@ -135,14 +119,12 @@
 
 <hr />
 
-<blockquote>
-  <p>本文内容持续更新，欢迎反馈意见。</p>
-</blockquote>
 
 
-<hr class="post-custom-line">
 
-<div id="waline"></div>
+
+  <hr class="post-custom-line">
+  <div id="waline"></div>
   <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
 
@@ -153,8 +135,10 @@
       meta: ['nick'], // 只需要昵称
       pageview: true,  // 浏览统计
       search: false,  // 表情包搜索
+      login: 'force', // 强制要求登录
     });
   </script>
+
 
 
   <small>tags: <em>mod</em> - <em>util</em></small>
@@ -176,7 +160,8 @@
         </small></p>
       </footer>
     </div>
-    <script src="/bny/assets/js/scale.fix.js"></script>
-    <script src="/bny/assets/js/toc.js"></script>
   </body>
+    <script src="/bny/assets/js/toc.js"></script>
+    <script src="/bny/assets/js/scale.fix.js"></script>
+    
 </html>

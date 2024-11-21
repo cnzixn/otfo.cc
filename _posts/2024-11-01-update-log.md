@@ -2,7 +2,7 @@
 layout: post
 title: "日志 24.11.01"
 date: 2024-11-14
-tags: ["logs", ]
+tags: ["log", ]
 reading_time: 1
 ---
 

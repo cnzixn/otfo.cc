@@ -53,12 +53,12 @@
           <div class="navbar">
             <div class="navbar-scroll-left">&#8249;&#8249;</div>
             <!-- <a href=/bny/>首页</a> -->
-            <a href=/bny/section/posts class="">全部</a>
-            <a href=/bny/section/news class="">资讯</a>
-            <a href=/bny/section/files class="">文件</a>
-            <a href=/bny/section/logs class="">日志</a>
-            <a href=/bny/section/other class="">其他</a>
             <a href=/bny/search class="">搜索</a>
+            <a href=/bny/section/news class="">资讯</a>
+            <a href=/bny/section/logs class="">日志</a>
+            <a href=/bny/section/mods class="">模组</a>
+            <a href=/bny/section/posts class="">全部</a>
+            <a href=/bny/donate class="">捐赠</a>
             <div class="navbar-scroll-right">&#8250;&#8250;</div>
           </div>
           <!-- 其他页面通用的 <header> 代码 -->
@@ -227,9 +227,10 @@
 </ul>
 
 
-<hr class="post-custom-line">
 
-<div id="waline"></div>
+
+  <hr class="post-custom-line">
+  <div id="waline"></div>
   <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
 
@@ -240,11 +241,13 @@
       meta: ['nick'], // 只需要昵称
       pageview: true,  // 浏览统计
       search: false,  // 表情包搜索
+      login: 'force', // 强制要求登录
     });
   </script>
 
 
-  <small>tags: <em>news</em></small>
+
+  <small>tags: <em>new</em></small>
 
 
 
@@ -263,7 +266,8 @@
         </small></p>
       </footer>
     </div>
-    <script src="/bny/assets/js/scale.fix.js"></script>
-    <script src="/bny/assets/js/toc.js"></script>
   </body>
+    <script src="/bny/assets/js/toc.js"></script>
+    <script src="/bny/assets/js/scale.fix.js"></script>
+    
 </html>

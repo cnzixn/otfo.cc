@@ -18,7 +18,7 @@ module Jekyll
         post.data["short_url"] = "#{site.config['url']}/s/#{short_code}"
 
         # 生成中转页面
-        short_link_page = Jekyll::Page.new(site, site.source, "", "s/#{short_code}/index.html")
+        short_link_page = Jekyll::Page.new(site, site.source, "", "s/#{short_code}.html")
         short_link_page.data["layout"] = "short"
         short_link_page.data["source_url"] = "#{site.config['url']}#{site.config['baseurl']}#{post.url}"
 

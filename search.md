@@ -4,13 +4,14 @@ title: "搜索"
 scode: search
 ---
 
-<input type="text" id="search-input" class="search-input" placeholder="请输入关键词...">
-
+<input type="text" class="search-input" placeholder="请输入关键词...">
 <ul class="search-results"></ul>
 
+
 <script>
+
   async function fetchPosts() {
-    const response = await fetch("{{ '/search.json' | relative_url }}");
+    const response = await fetch("{{ site.baseurl }}/search.json");
     const posts = await response.json();
     return posts;
   }
@@ -34,7 +35,7 @@ scode: search
 		`).join('');
   }
 
-  document.getElementById("search-input").addEventListener("input", async (event) => {
+  document.querySelector(".search-input").addEventListener("input", async (event) => {
     const query = event.target.value.trim();
     const posts = await fetchPosts();
     const results = filterPosts(posts, query);

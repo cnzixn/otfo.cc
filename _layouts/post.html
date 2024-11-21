@@ -39,9 +39,10 @@ layout: page
 
 {{content}}
 
-<hr class="post-custom-line">
 
-<div id="waline"></div>
+{% if site.waline %}
+  <hr class="post-custom-line">
+  <div id="waline"></div>
   <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
 
@@ -52,8 +53,10 @@ layout: page
       meta: ['nick'], // 只需要昵称
       pageview: true,  // 浏览统计
       search: false,  // 表情包搜索
+      login: 'force', // 强制要求登录
     });
   </script>
+{% endif %}
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>

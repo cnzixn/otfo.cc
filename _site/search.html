@@ -50,12 +50,12 @@
           <div class="navbar">
             <div class="navbar-scroll-left">&#8249;&#8249;</div>
             <!-- <a href=/bny/>首页</a> -->
-            <a href=/bny/section/posts class="">全部</a>
-            <a href=/bny/section/news class="">资讯</a>
-            <a href=/bny/section/files class="">文件</a>
-            <a href=/bny/section/logs class="">日志</a>
-            <a href=/bny/section/other class="">其他</a>
             <a href=/bny/search class="">搜索</a>
+            <a href=/bny/section/news class="">资讯</a>
+            <a href=/bny/section/logs class="">日志</a>
+            <a href=/bny/section/mods class="">模组</a>
+            <a href=/bny/section/posts class="">全部</a>
+            <a href=/bny/donate class="">捐赠</a>
             <div class="navbar-scroll-right">&#8250;&#8250;</div>
           </div>
           <!-- 其他页面通用的 <header> 代码 -->
@@ -64,11 +64,11 @@
 
       <!-- 页面内容 -->
       <div class="content">
-        <p><input type="text" id="search-input" class="search-input" placeholder="请输入关键词..." /></p>
-
+        <p><input type="text" class="search-input" placeholder="请输入关键词..." /></p>
 <ul class="search-results"></ul>
 
 <script>
+
   async function fetchPosts() {
     const response = await fetch("/bny/search.json");
     const posts = await response.json();
@@ -94,7 +94,7 @@
 		`).join('');
   }
 
-  document.getElementById("search-input").addEventListener("input", async (event) => {
+  document.querySelector(".search-input").addEventListener("input", async (event) => {
     const query = event.target.value.trim();
     const posts = await fetchPosts();
     const results = filterPosts(posts, query);
@@ -117,7 +117,8 @@
         </small></p>
       </footer>
     </div>
-    <script src="/bny/assets/js/scale.fix.js"></script>
-    <script src="/bny/assets/js/toc.js"></script>
   </body>
+    <script src="/bny/assets/js/toc.js"></script>
+    <script src="/bny/assets/js/scale.fix.js"></script>
+    
 </html>

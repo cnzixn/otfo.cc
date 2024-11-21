@@ -12,30 +12,17 @@ reading_time: 5
 
 ---
 
+## 模组简介
 
+内容有待更新...
 
+---
 
 
 ## 文件下载
-- **百度网盘**：[点击下载](https://pan.baidu.com/s/1uyk8yNGWktwbIx5PJmN12w?pwd=otfc)  **提取码**：otfc  
-- **夸克网盘**：[点击下载](https://pan.quark.cn/s/872efe0fa8e0?pwd=et25)  **提取码**：et25  
-- **迅雷网盘**：[点击下载](https://pan.xunlei.com/s/VOCCbXB68V_c12eVYzeRJ2RcA1?pwd=mift)  **提取码**：mift  
-
----
-
-## 游戏截图
-> 以下是模组相关的游戏截图展示：
-
-![示例图片](https://example.com/screenshot1.jpg)  
-![示例图片](https://example.com/screenshot2.jpg)
-
----
-
-## 模组简介
-> 本模组的核心功能和特点如下：
-- 特点 1
-- 特点 2
-- 特点 3
+- **线路一**：[百度网盘](https://pan.baidu.com/s/1uyk8yNGWktwbIx5PJmN12w?pwd=otfc)  提取码：otfc  
+- **线路二**：[夸克网盘](https://pan.quark.cn/s/872efe0fa8e0?pwd=et25)  提取码：et25  
+- **线路三**：[迅雷网盘](https://pan.xunlei.com/s/VOCCbXB68V_c12eVYzeRJ2RcA1?pwd=mift)  提取码：mift  
 
 ---
 
@@ -45,4 +32,3 @@ reading_time: 5
 
 ---
 
-> 本文内容持续更新，欢迎反馈意见。
