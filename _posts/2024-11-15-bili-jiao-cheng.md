@@ -12,6 +12,13 @@ reading_time: 10
 
 ### 一分钟，带你安装模组
 
+##### 文件：
+- 工具：MT管理器
+- 游戏：饥荒船难 1.33.4
+- 框架：BMXXXX.123.ZIP
+- 模组：BM035.人物.千年狐.ZIP
+
+##### 视频
 <div class="post-video-player">
   <iframe 
     src="https://player.bilibili.com/player.html?bvid=BV1k8UFYAEjq" 

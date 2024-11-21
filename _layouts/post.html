@@ -5,7 +5,7 @@ layout: page
 <h1>{{ page.title }}</h1>
 
 <small>
-  编辑：{{ page.date | date: "%Y-%m-%d" }}, 作者: {{ page.author | default: site.author }}
+  <div id="article-info">编辑：{{ page.date | date: "%Y-%m-%d" }}, 作者: {{ page.author | default: site.author }}, 阅读量: <span class="waline-pageview-count" data-path="{{ page.short_url }}" />0</div>
 </small>
 
 <!-- 分享链接 -->
@@ -39,6 +39,24 @@ layout: page
 
 {{content}}
 
+<hr class="post-custom-line">
+
+<div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://otfo-cc.vercel.app/',
+      avatar: 'qq',  // 头像
+      meta: ['nick'], // 只需要昵称
+      pageview: true,  // 浏览统计
+      search: false,  // 表情包搜索
+    });
+  </script>
+
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+
+

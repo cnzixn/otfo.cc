@@ -15,6 +15,9 @@ group :jekyll_plugins do
   gem "jekyll-admin"
 end
 
-gem "jekyll-feed"
-gem "jekyll-sitemap"
+# gem "jekyll-feed"
+# gem "jekyll-sitemap"
+
+# 评论系统
+# gem 'jekyll-disqus'
 

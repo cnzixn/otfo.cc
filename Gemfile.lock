@@ -50,18 +50,14 @@ GEM
       sprockets (~> 2.10)
       sprockets-helpers
       sprockets-sass
-    jekyll-feed (0.17.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
-    jekyll-sitemap (1.4.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.4.0)
-      rexml
+    kramdown (2.5.1)
+      rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
@@ -88,9 +84,6 @@ GEM
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
-    sass-embedded (1.80.7)
-      google-protobuf (~> 4.28)
-      rake (>= 13)
     sass-embedded (1.80.7-aarch64-linux-android)
       google-protobuf (~> 4.28)
     sass-listen (4.0.0)
@@ -125,14 +118,11 @@ GEM
 
 PLATFORMS
   aarch64-linux-android
-  ruby
 
 DEPENDENCIES
   jekyll-admin
   jekyll-assets
-  jekyll-feed
   jekyll-seo-tag
-  jekyll-sitemap
   kramdown-parser-gfm
   rack
   webrick

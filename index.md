@@ -10,4 +10,6 @@ layout: page
 
   <a href="/s/file">文件下载</a>
 
+  <a href="https://pd.qq.com/s/7tvokq9db">企鹅频道</a>
+
 </div>
