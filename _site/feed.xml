@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BM</title>
+    <description></description>
+    <link>https://otfo.cc/b/</link>
+    <atom:link href="https://otfo.cc/b/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 13 Dec 2024 17:40:26 +0800</pubDate>
+    <lastBuildDate>Fri, 13 Dec 2024 17:40:26 +0800</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>模组更新</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;模组更新日志……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2024.12.02&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;BM172 修复“海上修船器”无法工作的问题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2024.11.27&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;BM300 修复“信息面板”无法使用的问题。&lt;/li&gt;
+  &lt;li&gt;BM110 修复“简易血条”无法使用的问题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2024.11.26&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;BM035 修复“狐狸面具”添加燃料会崩溃的问题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2024.11. 23&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;BM387 修复最后一支“箭”可以无限使用的问题；修复装备“箭袋”进入存档会崩溃的问题。&lt;/li&gt;
+  &lt;li&gt;BM322 调整容器格子位置；已知问题：点击贴图中心无法打开容器(需要点击贴图左下角)。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Tue, 26 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/11/26/mod-update-log.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/11/26/mod-update-log.html</guid>
+        
+        <category>log</category>
+        
+        <category>mod</category>
+        
+        <category>top</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM412 玩家房子</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;玩家房子&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;p&gt;内容有待更新…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;百度网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.baidu.com/s/11Ii1Lad9zpj89k8YKfp6Dw&quot;&gt;https://pan.baidu.com/s/11Ii1Lad9zpj89k8YKfp6Dw&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;夸克网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.quark.cn/s/fd8159e352b8&quot;&gt;https://pan.quark.cn/s/fd8159e352b8&lt;/a&gt; 提取码：rg9t&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;迅雷网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbYzkbGWPPUUdfuCFPd_KA1&quot;&gt;https://pan.xunlei.com/s/VOCCbYzkbGWPPUUdfuCFPd_KA1&lt;/a&gt; 提取码：eu6n&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;123网盘&lt;/strong&gt;：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;https://www.123pan.com/s/IC8lVv-ftuAv.html&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;为避免损坏存档，使用前请备份游戏存档。&lt;/li&gt;
+  &lt;li&gt;可能与其他模组存在冲突，建议单独测试。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文内容持续更新，欢迎反馈意见。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/11/22/BM412-%E7%8E%A9%E5%AE%B6%E6%88%BF%E5%AD%90.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/11/22/BM412-%E7%8E%A9%E5%AE%B6%E6%88%BF%E5%AD%90.html</guid>
+        
+        <category>mod</category>
+        
+        <category>play</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM411 魔法魂灯</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;魔法魂灯&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;p&gt;内容有待更新…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;百度网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.baidu.com/s/1FLCpvOBEuUW1tZZq5kXC7g&quot;&gt;https://pan.baidu.com/s/1FLCpvOBEuUW1tZZq5kXC7g&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;夸克网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.quark.cn/s/c2b41f60d399&quot;&gt;https://pan.quark.cn/s/c2b41f60d399&lt;/a&gt; 提取码：ijlx&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;迅雷网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbYv0QJ_cTl6Fsent-35pA1&quot;&gt;https://pan.xunlei.com/s/VOCCbYv0QJ_cTl6Fsent-35pA1&lt;/a&gt; 提取码：jpzf&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;123网盘&lt;/strong&gt;：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;https://www.123pan.com/s/IC8lVv-ftuAv.html&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;为避免损坏存档，使用前请备份游戏存档。&lt;/li&gt;
+  &lt;li&gt;可能与其他模组存在冲突，建议单独测试。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文内容持续更新，欢迎反馈意见。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/11/22/BM411-%E9%AD%94%E6%B3%95%E9%AD%82%E7%81%AF.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/11/22/BM411-%E9%AD%94%E6%B3%95%E9%AD%82%E7%81%AF.html</guid>
+        
+        <category>mod</category>
+        
+        <category>play</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM410 盾牌</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;盾牌&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;p&gt;内容有待更新…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;百度网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.baidu.com/s/1A5VjleePdgQz0917i1Ch4w&quot;&gt;https://pan.baidu.com/s/1A5VjleePdgQz0917i1Ch4w&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;夸克网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.quark.cn/s/ed9cb52f4bd3&quot;&gt;https://pan.quark.cn/s/ed9cb52f4bd3&lt;/a&gt; 提取码：88x1&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;迅雷网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbYs8XdAt6kK_zGb_uMdmA1&quot;&gt;https://pan.xunlei.com/s/VOCCbYs8XdAt6kK_zGb_uMdmA1&lt;/a&gt; 提取码：wuzn&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;123网盘&lt;/strong&gt;：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;https://www.123pan.com/s/IC8lVv-ftuAv.html&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;为避免损坏存档，使用前请备份游戏存档。&lt;/li&gt;
+  &lt;li&gt;可能与其他模组存在冲突，建议单独测试。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文内容持续更新，欢迎反馈意见。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/11/22/BM410-%E7%9B%BE%E7%89%8C.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/11/22/BM410-%E7%9B%BE%E7%89%8C.html</guid>
+        
+        <category>mod</category>
+        
+        <category>gear</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM409 翅膀＆背包</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;翅膀＆背包&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;p&gt;内容有待更新…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;百度网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.baidu.com/s/1uruP-fx2b3B9cbq3w6Z74g&quot;&gt;https://pan.baidu.com/s/1uruP-fx2b3B9cbq3w6Z74g&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;夸克网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.quark.cn/s/92f92bd5d2cb&quot;&gt;https://pan.quark.cn/s/92f92bd5d2cb&lt;/a&gt; 提取码：yw2s&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;迅雷网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbYnCQNZoOrhJ3-A82eZYA1&quot;&gt;https://pan.xunlei.com/s/VOCCbYnCQNZoOrhJ3-A82eZYA1&lt;/a&gt; 提取码：rg2u&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;123网盘&lt;/strong&gt;：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;https://www.123pan.com/s/IC8lVv-ftuAv.html&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;为避免损坏存档，使用前请备份游戏存档。&lt;/li&gt;
+  &lt;li&gt;可能与其他模组存在冲突，建议单独测试。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文内容持续更新，欢迎反馈意见。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/11/22/BM409-%E7%BF%85%E8%86%80-%E8%83%8C%E5%8C%85.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/11/22/BM409-%E7%BF%85%E8%86%80-%E8%83%8C%E5%8C%85.html</guid>
+        
+        <category>mod</category>
+        
+        <category>gear</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM408 暗影镰刀</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;暗影镰刀&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;p&gt;内容有待更新…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;百度网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.baidu.com/s/1hLL_wkoHGiJVv6Y7c1K0Qw&quot;&gt;https://pan.baidu.com/s/1hLL_wkoHGiJVv6Y7c1K0Qw&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;夸克网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.quark.cn/s/db565593aaea&quot;&gt;https://pan.quark.cn/s/db565593aaea&lt;/a&gt; 提取码：odcu&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;迅雷网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbYk98V_c12eVYzeRJ2zzA1&quot;&gt;https://pan.xunlei.com/s/VOCCbYk98V_c12eVYzeRJ2zzA1&lt;/a&gt; 提取码：ysk2&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;123网盘&lt;/strong&gt;：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;https://www.123pan.com/s/IC8lVv-ftuAv.html&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;为避免损坏存档，使用前请备份游戏存档。&lt;/li&gt;
+  &lt;li&gt;可能与其他模组存在冲突，建议单独测试。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文内容持续更新，欢迎反馈意见。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/11/22/BM408-%E6%9A%97%E5%BD%B1%E9%95%B0%E5%88%80.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/11/22/BM408-%E6%9A%97%E5%BD%B1%E9%95%B0%E5%88%80.html</guid>
+        
+        <category>mod</category>
+        
+        <category>gear</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM407 黄金长矛</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;黄金长矛&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;p&gt;内容有待更新…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;百度网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.baidu.com/s/1KYMvRYx22HTua0Rrd8I-Hw&quot;&gt;https://pan.baidu.com/s/1KYMvRYx22HTua0Rrd8I-Hw&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;夸克网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.quark.cn/s/9fdd48b15f9c&quot;&gt;https://pan.quark.cn/s/9fdd48b15f9c&lt;/a&gt; 提取码：zcf3&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;迅雷网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbYhFFBSWOyjQkONBERtmA1&quot;&gt;https://pan.xunlei.com/s/VOCCbYhFFBSWOyjQkONBERtmA1&lt;/a&gt; 提取码：zzp7&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;123网盘&lt;/strong&gt;：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;https://www.123pan.com/s/IC8lVv-ftuAv.html&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;为避免损坏存档，使用前请备份游戏存档。&lt;/li&gt;
+  &lt;li&gt;可能与其他模组存在冲突，建议单独测试。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文内容持续更新，欢迎反馈意见。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/11/22/BM407-%E9%BB%84%E9%87%91%E9%95%BF%E7%9F%9B.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/11/22/BM407-%E9%BB%84%E9%87%91%E9%95%BF%E7%9F%9B.html</guid>
+        
+        <category>mod</category>
+        
+        <category>gear</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM406 友好的蜜蜂</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;友好的蜜蜂&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;p&gt;内容有待更新…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;百度网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.baidu.com/s/1PV179EREDQIrKgph2oDW7Q&quot;&gt;https://pan.baidu.com/s/1PV179EREDQIrKgph2oDW7Q&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;夸克网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.quark.cn/s/26913f9523f0&quot;&gt;https://pan.quark.cn/s/26913f9523f0&lt;/a&gt; 提取码：60g8&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;迅雷网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbYczBY43ql3KgWuwRFK9A1&quot;&gt;https://pan.xunlei.com/s/VOCCbYczBY43ql3KgWuwRFK9A1&lt;/a&gt; 提取码：gmpa&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;123网盘&lt;/strong&gt;：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;https://www.123pan.com/s/IC8lVv-ftuAv.html&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;为避免损坏存档，使用前请备份游戏存档。&lt;/li&gt;
+  &lt;li&gt;可能与其他模组存在冲突，建议单独测试。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文内容持续更新，欢迎反馈意见。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/11/22/BM406-%E5%8F%8B%E5%A5%BD%E7%9A%84%E8%9C%9C%E8%9C%82.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/11/22/BM406-%E5%8F%8B%E5%A5%BD%E7%9A%84%E8%9C%9C%E8%9C%82.html</guid>
+        
+        <category>mod</category>
+        
+        <category>tune</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM405 巨兽指向标</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;巨兽指向标&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;p&gt;内容有待更新…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;百度网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.baidu.com/s/1S0z-sLPp1Zw2PVxzEzlbhg&quot;&gt;https://pan.baidu.com/s/1S0z-sLPp1Zw2PVxzEzlbhg&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;夸克网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.quark.cn/s/cfc5d295abd7&quot;&gt;https://pan.quark.cn/s/cfc5d295abd7&lt;/a&gt; 提取码：ebcl&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;迅雷网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbY_2vU1rirZMkQoIIWD9A1&quot;&gt;https://pan.xunlei.com/s/VOCCbY_2vU1rirZMkQoIIWD9A1&lt;/a&gt; 提取码：detf&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;123网盘&lt;/strong&gt;：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;https://www.123pan.com/s/IC8lVv-ftuAv.html&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;为避免损坏存档，使用前请备份游戏存档。&lt;/li&gt;
+  &lt;li&gt;可能与其他模组存在冲突，建议单独测试。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文内容持续更新，欢迎反馈意见。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/11/22/BM405-%E5%B7%A8%E5%85%BD%E6%8C%87%E5%90%91%E6%A0%87.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/11/22/BM405-%E5%B7%A8%E5%85%BD%E6%8C%87%E5%90%91%E6%A0%87.html</guid>
+        
+        <category>mod</category>
+        
+        <category>help</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM404 飞机</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;飞机&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;p&gt;内容有待更新…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;百度网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.baidu.com/s/1H0r9mrvvtrW98o0-v-0VyA&quot;&gt;https://pan.baidu.com/s/1H0r9mrvvtrW98o0-v-0VyA&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;夸克网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.quark.cn/s/99c1d57f17c8&quot;&gt;https://pan.quark.cn/s/99c1d57f17c8&lt;/a&gt; 提取码：1b9v&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;迅雷网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbYWjIeXK2RN4MTAx7Mm2A1&quot;&gt;https://pan.xunlei.com/s/VOCCbYWjIeXK2RN4MTAx7Mm2A1&lt;/a&gt; 提取码：yj9u&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;123网盘&lt;/strong&gt;：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;https://www.123pan.com/s/IC8lVv-ftuAv.html&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;为避免损坏存档，使用前请备份游戏存档。&lt;/li&gt;
+  &lt;li&gt;可能与其他模组存在冲突，建议单独测试。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本文内容持续更新，欢迎反馈意见。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/11/22/BM404-%E9%A3%9E%E6%9C%BA.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/11/22/BM404-%E9%A3%9E%E6%9C%BA.html</guid>
+        
+        <category>mod</category>
+        
+        <category>play</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

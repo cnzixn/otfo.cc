@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "日志 24.11.01"
+title: "框架更新 24.11.01"
 date: 2024-11-14
 tags: ["log", ]
 reading_time: 1

@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Bny</title>
+<title>BM</title>
 <meta name="generator" content="Jekyll v4.3.4" />
-<meta property="og:title" content="Bny" />
+<meta property="og:title" content="BM" />
 <meta name="author" content="Bny" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://otfo.cc/bny/" />
-<meta property="og:url" content="https://otfo.cc/bny/" />
-<meta property="og:site_name" content="Bny" />
+<link rel="canonical" href="https://otfo.cc/b/" />
+<meta property="og:url" content="https://otfo.cc/b/" />
+<meta property="og:site_name" content="BM" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Bny" />
+<meta property="twitter:title" content="BM" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Bny"},"headline":"Bny","name":"Bny","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://otfo.cc/bny/assets/img/logo.jpg"},"name":"Bny"},"url":"https://otfo.cc/bny/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Bny"},"headline":"BM","name":"BM","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://otfo.cc/b/assets/img/logo.jpg"},"name":"Bny"},"url":"https://otfo.cc/b/"}</script>
 <!-- End Jekyll SEO tag -->
 
     
     <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
 
-    <link rel="stylesheet" href="/bny/assets/css/style.css?v=">
+    <link rel="stylesheet" href="/b/assets/css/style.css?v=">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -35,7 +35,9 @@
 
 
 <!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/bny/favicon.ico" -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/b/favicon.ico" -->
+
+
 
 <!-- end custom head snippets -->
 
@@ -48,7 +50,7 @@
           <!-- 首页特有的 <header> 代码 -->
 
           
-            <a href="https://otfo.cc/bny/section/posts"><img src="/bny/assets/img/logo.jpg" alt="Logo" /></a>
+            <a href="https://otfo.cc/b/section/posts"><img src="/b/assets/img/logo.jpg" alt="Logo" /></a>
           
 
           <!-- <p></p> -->
@@ -61,21 +63,53 @@
       <div class="content">
         <div class="home-page-content">
 
-  <a href="https://pd.qq.com/s/7tvokq9db">企鹅频道</a>
-  
-  <a href="/s/guide">安装教程</a>
+  <a href="/s/guide">新人指路</a>
 
-  <a href="https://otfo.cc/bny/section/posts">查看帖子</a>
+  <a href="https://qun.qq.com/qqweb/qunpro/share?inviteCode=2jKeVdfLFtI">问题反馈</a>
+
+  <a href="https://otfo.cc/b/section/posts">更多帖子</a>
 
 </div>
+
+<script>
+    // 实际上并未使用，保留仅供学习。
+    async function redirectToPage() {
+        // 获取 URL 参数
+        const urlParams = new URLSearchParams(window.location.search);
+        const key = urlParams.get('k');
+
+        if (key) {
+            try {
+                // 加载 JSON 文件
+                const response = await fetch('short.json'); // JSON 文件位于根目录
+                const redirects = await response.json();
+
+                // 查找对应页面并跳转
+                if (redirects[key]) {
+                    window.location.href = redirects[key];
+                } else {
+                    // alert('无效的参数值：' + key);
+                }
+            } catch (error) {
+                console.error('加载跳转配置失败:', error);
+            }
+        } else {
+            // 没有参数时显示主页内容
+            document.getElementById('main-content').style.display = 'block';
+        }
+    }
+
+    window.onload = redirectToPage;
+</script>
+
 
       </div>
 
       <!-- 页脚内容 -->
       <footer>
         
-        <p><small>© 2024 <a href=/bny/>Bny</a>, Powered by <a href="https://jekyllrb.com">Jekyll</a> & <a href="https://github.com/pages-themes/minimal">Minimal</a> Theme.
-          <a href="/bny/feed.xml" target="_blank">
+        <p><small>© 2024 - 2025 <a href=/b/>BM</a>, Powered by <a href="https://jekyllrb.com">Jekyll</a> & <a href="https://github.com/pages-themes/minimal">Minimal</a> Theme.
+          <a href="/b/feed.xml" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 24 24">
               <path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/>
             </svg>
@@ -84,7 +118,7 @@
       </footer>
     </div>
   </body>
-    <script src="/bny/assets/js/toc.js"></script>
-    <script src="/bny/assets/js/scale.fix.js"></script>
-    
+    <script src="/b/assets/js/toc.js"></script>
+    <script src="/b/assets/js/scale.fix.js"></script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </html>

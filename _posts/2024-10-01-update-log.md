@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "日志 24.10.01"
+title: "框架更新 24.10.01"
 date: 2024-11-14
 author: "Bny"
 reading_time: 1

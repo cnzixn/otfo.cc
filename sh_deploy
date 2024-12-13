@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# cd /sdcard/acode/otfo/ ; bash deploy.sh
+# cd /sdcard/acode/otfo/ ; bash sh_deploy
 
 # 网页子目录
-dir="bny"
+dir="b"
 
 # 设置远端仓库
 # git remote set-url origin https://github.com/cnzixn/otfo.cc.git
@@ -11,8 +11,6 @@ dir="bny"
 # 新建一个本地仓库，并设置远端仓库
 # git init
 # git remote add origin https://github.com/cnzixn/otfo.cc.git
-# 当前仓库为 master 才能执行下面代码
-# git branch
 
 # 切换到主分支，构建站点并提交更改
 git checkout -b master
@@ -30,10 +28,11 @@ git rm -rf .
 # 将 _site 文件夹内容复制到 gh-pages 分支根目录
 git checkout master -- CNAME
 git checkout master -- _site
-cp -r ./_site ./bny
-cp -r ./bny/s .
-cp ./bny/index.html .
-cp ./bny/404.html .
+git checkout master -- redirects.json
+cp -r ./_site "./$dir"
+cp -r "./$dir/s" .
+cp "./$dir/index.html" .
+cp "./$dir/404.html" .
 git rm -rf deploy.sh
 git rm -rf start.sh
 git rm -rf _site

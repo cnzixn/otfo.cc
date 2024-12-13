@@ -886,4 +886,32 @@ footer {
   z-index: 1000;
 }
 
+/*赞助页面*/
+.donation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px; /* 间距调整 */
+}
+
+.qr-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.qrcode {
+  text-align: center;
+  margin: 5px;
+}
+
+.qrcode img {
+  width: 100%;
+  border-radius: 13px; /* 圆角边框 */
+  border: 2px solid #ddd;
+  padding: 0px;
+  background-color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
