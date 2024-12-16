@@ -20,7 +20,6 @@
     <div class="wrapper">
       <header>
         {% if page.url == "/" %}
-          <!-- 首页特有的 <header> 代码 -->
 
           {% if site.logo %}
             <a href="{{ '/section/posts' | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
@@ -28,22 +27,20 @@
 
           <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
 
-          <!-- 首页特有的 <header> 代码 -->
         {% else %}
-          <!-- 其他页面通用的 <header> 代码 -->
           <!-- 导航栏 -->
           <div class="navbar">
-            <div class="navbar-scroll-left">&#8249;&#8249;</div>
-            <!-- <a href={{ '/' | relative_url}}>首页</a> -->
-            <a href={{ '/search' | relative_url}} class="{% if page.url == '/search' %}current{% endif %}">搜索</a>
-            <a href={{ '/section/news' | relative_url}} class="{% if page.url contains '/section/news' %}current{% endif %}">资讯</a>
-            <a href={{ '/section/logs' | relative_url}} class="{% if page.url contains '/section/logs' %}current{% endif %}">日志</a>
-            <a href={{ '/section/mods' | relative_url}} class="{% if page.url contains '/section/mods' %}current{% endif %}">模组</a>
-            <a href={{ '/section/posts' | relative_url}} class="{% if page.url contains '/section/posts' %}current{% endif %}">全部</a>
-            <a href={{ '/donate' | relative_url}} class="{% if page.url contains '/section/other' %}current{% endif %}">捐赠</a>
-            <div class="navbar-scroll-right">&#8250;&#8250;</div>
+            <!-- <div class="navbar-scroll-left">&#8249;&#8249;</div> -->
+            <a href={{ '/' | relative_url}}>首页</a>
+            <a href={{ '/search' | relative_url}} class="{% if page.url contains '/search' %}current{% endif %}">搜索</a>
+            <a href={{ '/section/posts' | relative_url}} class="{% if page.url contains '/posts' %}current{% endif %}">全部</a>
+            <!-- <a href={{ '/section/mods' | relative_url}} class="{% if page.url contains '/mods' %}current{% endif %}">模组</a> -->
+            <a href={{ '/section/news' | relative_url}} class="{% if page.url contains '/news' %}current{% endif %}">资讯</a>
+            <a href={{ '/section/logs' | relative_url}} class="{% if page.url contains '/logs' %}current{% endif %}">日志</a>
+            <a href={{ '/section/about' | relative_url}} class="{% if page.url contains '/about' %}current{% endif %}">关于</a>
+            <a href={{ '/section/cards' | relative_url}} class="{% if page.url contains '/cards' %}current{% endif %}">橱窗</a>
+            <!-- <div class="navbar-scroll-right">&#8250;&#8250;</div> -->
           </div>
-          <!-- 其他页面通用的 <header> 代码 -->
         {% endif %}
       </header>
 

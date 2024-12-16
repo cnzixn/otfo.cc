@@ -2,27 +2,9 @@
 layout: page
 ---
 
-
-## 赞助
-
-如果您觉得本网站对您有帮助，可以考虑请站长喝一杯咖啡。  
-
-<div class="donation">
-  <div class="qr-container">
-    <div class="qrcode">
-      <img src="{{ '/assets/img/alipay-qrcode.png' | relative_url }}" alt="支付宝二维码" />
-    </div>
-    <div class="qrcode">
-      <img src="{{ '/assets/img/wechat-qrcode.png' | relative_url }}" alt="微信二维码" />
-    </div>
-  </div>
-  <small>截图，打开App扫码</small>
-</div>
+<h1 style="text-align:center;">兔人协会</h1>
 
 ---
-
-<h3 style="text-align:center;">兔人协会</h3>
-
 
 #### 一、会员身份
 
@@ -36,14 +18,14 @@ layout: page
 　1.4.1 生存30分钟奖励1天。  
 　1.4.2 频道活动发放“会员码”。  
 
-1.5 赞助不会得到任何实质性的“商品”，付费定制是“购买”服务——为你写代码。  
-　1.5.1 赞助￥10+，3K的Q群“入群资格”。  
-　1.5.2 赞助￥99+，3K的Q群“专属头衔”。  
-　1.5.3 欢迎付费定制，相关代码仅限自用。  
+1.5 <a href="#四赞助本站">赞助本站</a>不会有任何实质性的“回报”，付费定制是购买服务——为你写代码。  
+　1.5.1 赞助￥10+，3000人超大群“入群资格”。  
+　1.5.2 赞助￥99+，3000人超大群“专属头衔”。  
+　1.5.3 付费定制，相关代码仅限自用。  
 
 ---
 
-#### 二、框架和模组
+#### 二、框架＆模组
 
 2.1 兔人框架可视为一个基础“模组”，它的主要作用是：修复被阉割掉的“模组系统”，让(安卓)手机版可以安装并使用模组。  
 
@@ -57,7 +39,7 @@ layout: page
 
 ---
 
-#### 三、更多的模组
+#### 三、更多模组
 
 3.1 代码，为 lua 脚本语言，学习几天就能会。  
 
@@ -67,8 +49,38 @@ layout: page
 
 3.4 音效，安卓 1.23 版本可以使用电脑版音效文件。后续1.28+版本就对音效进行了“加密”打包，暂时无解。  
 
-3.5 社群，逛逛官方论坛模组分区，水水国内的模组开发群，能帮助你更好地制作新模组。  
+3.5 分享，期待你的作品。  
 
-3.6 分享，期待你的作品。  
+---
+
+#### 四、赞助本站
+
+4.1 如果您觉得这里的内容对您有所帮助，欢迎您赞助我们。您的每一分赞助，都是我们前进的动力！您的赞助将用于：  
+　4.1.1 网站域名、Q群升级等费用。  
+　4.1.2 持续改进和丰富网站的内容。  
+　4.1.3 提供更好的用户体验和新功能。  
+
+4.2 您可以通过以下方式赞助本网站：  
+　4.2.1 [商品橱窗]({{ '/section/cards' | relative_url}})：你办流量卡，我拿推广金。  
+　4.2.2 扫码转账：截图本页，打开 App 扫码。  
+　4.2.3 如需补充其他赞助方式，请联系站长。  
+<div class="donation">
+  <div class="qr-container">
+    <div class="qrcode">
+      <img src="{{ '/assets/img/alipay-qrcode.png' | relative_url }}" alt="支付宝二维码" />
+    </div>
+    <div class="qrcode">
+      <img src="{{ '/assets/img/wechat-qrcode.png' | relative_url }}" alt="微信二维码" />
+    </div>
+  </div>
+</div>
+
+---
+
+#### 五、联系我们
+
+5.1 [点击进入Q群](https://jq.qq.com/?k=5WukPKv)：614255348
+
+5.2 [点击进入频道](https://qun.qq.com/qqweb/qunpro/share?inviteCode=2l2COvdUN0S)：饥荒手游模组｜兔人协会
 
 ---

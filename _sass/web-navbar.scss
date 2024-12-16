@@ -1,12 +1,12 @@
 /* 导航栏样式 */
 .navbar {
   display: flex; /* 使用 Flexbox 布局，子项将按行排列 */
-  padding: 1rem; /* 内边距，设置导航栏的上下左右间距 */
+  padding: 0.5rem; /* 内边距，设置导航栏的上下左右间距 */
   overflow-x: auto; /* 水平溢出时启用滚动条 */
   white-space: nowrap; /* 禁止文本换行，确保所有导航项在一行 */
   text-align: center; /* 导航项的文本居中 */
   position: fixed; /* 固定在视口顶部，不随页面滚动而消失 */
-  justify-content: center; /* 水平居中 */
+  justify-content: center; /* flex-start 导航项从左到右排列 */
   top: 0; /* 导航栏位于页面顶部 */
   left: 0; /* 导航栏从页面左边开始 */
   right: 0; /* 导航栏到达页面的右边 */
@@ -21,10 +21,10 @@
 .navbar a {
   color: #888888;
   display: inline-block;
-  padding: 2px 4px; /* 调整内边距，使点击区域更大 */
+  padding: 2px 3px; /* 调整内边距，使点击区域更大 */
   margin: 0 2px; /* 给每个链接添加间隔 */
   text-decoration: none; /* 去掉默认下划线 */
-  font-size: 16px; /* 调整文字大小 */
+  font-size: 15px; /* 调整文字大小 */
   border: 1px solid #ccc; /* 为每个链接添加边框 */
   border-radius: 5px; /* 可选，圆角边框 */
 }
@@ -37,7 +37,7 @@
 
 .navbar-scroll-left,
 .navbar-scroll-right {
-    padding: 0 5px;
-    font-size: 16px;
+    padding: 0 3px;
+    font-size: 15px;
     color: #666;
 }

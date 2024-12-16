@@ -15,8 +15,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .content {
   flex: 1; /* 让内容区域占据剩余的空间 */
-  padding-top: 3rem; /* 给顶部留出空间，避免被导航栏遮挡 */
-  padding-bottom: 2.5rem; /* 给底部留出空间，避免被页脚遮挡 */
+  padding-top: 2rem; /* 给顶部留出空间，避免被导航栏遮挡 */
+  padding-bottom: 2rem; /* 给底部留出空间，避免被页脚遮挡 */
 }
 
 /*引用*/
@@ -67,6 +67,7 @@ blockquote {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-top: 3rem;
 }
 .home-page-content a {
   font-size: 1.6rem;
@@ -92,13 +93,13 @@ blockquote {
 
 footer {
   display: flex;
-  padding: 1rem 0px 0; /* 可选：增加一些内边距 */
+  padding: 0.2rem 0px 0; /* 可选：增加一些内边距 */
   overflow-x: auto;
   white-space: nowrap;
   justify-content: center; /* 水平居中内容 */
   text-align: center; /* 使文本内容在每行内居中 */
   position: fixed;
-  bottom: 0;
+  bottom: -0.8rem;
   left: 0;
   right: 0;
   width: 100%; /* 确保背景宽度为100% */
@@ -109,28 +110,46 @@ footer {
 
 /*赞助页面*/
 .donation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 40px; /* 间距调整 */
-  }
-  .qr-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  .qrcode {
-    text-align: center;
-    margin: 5px;
-  }
-  .qrcode img {
-    width: 100%; 
-    border-radius: 13px; /* 圆角边框 */
-    border: 2px solid #ddd;
-    padding: 0px;
-    background-color: #fff;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 20px; /* 间距调整 */
+}
+.qr-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+.qrcode {
+  text-align: center;
+  margin: 5px;
+}
+.qrcode img {
+  width: 100%; 
+  border-radius: 13px; /* 圆角边框 */
+  border: 2px solid #ddd;
+  padding: 0px;
+  background-color: #fff;
+}
 
-
+/*办理流量卡页面*/
+/* 确保 iframe-container 相对定位，为加载提示居中做准备 */
+#iframe-container {
+  position: relative;
+}
+/* 去除 iframe 的边框 */
+#iframe-container iframe {
+  border: none;
+}
+/* 加载提示样式 */
+#loading-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+}
 
