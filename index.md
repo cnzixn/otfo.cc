@@ -4,7 +4,7 @@ layout: page
 
 <div class="home-page-content">
 
-  <a href="{{ '/?k=guide' | absolute_url }}">新人指路</a>
+  <a href="{{ '/2024/11/22/guide.html' | absolute_url }}">新人指路</a>
 
   <a href="https://qun.qq.com/qqweb/qunpro/share?inviteCode=2jKeVdfLFtI">问题反馈</a>
 
