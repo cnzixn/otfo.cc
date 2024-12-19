@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% if page.url == "/" %}
+
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    {% endif %}
+    <meta http-equiv="Expires" content="300">
 
     {% seo %}
 
     <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
 
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
 
     {% include head-custom.html %}
 
