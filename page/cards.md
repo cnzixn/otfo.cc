@@ -47,7 +47,7 @@ layout: page
 **套餐**：3G通用流量+10G定向流量+100分钟  
 **合约**：6个月、到期可在 App 或营业厅注销  
 **地区**：具体以运营商审核为准  
-**预览**：[📌我的套餐]({{ "assets/img/cards/cangshuka1.png" | relative_url}})　[📌剩余话费]({{ "assets/img/cards/cangshuka2.png" | relative_url}})  
+**预览**：![我的套餐](https://s3.uuu.ovh/imgs/2024/12/21/969102e766dbc14e.png)  
 
 
 > [🔗广电海锦卡【19元 99G+36G】](https://172.lot-ml.com/h5orderEn/index?pudID=cbb6b1bdbc74d36d&userid=6babd1bdd232e810)  

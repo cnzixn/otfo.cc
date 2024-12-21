@@ -5,9 +5,35 @@
     <description></description>
     <link>https://otfo.cc/b/</link>
     <atom:link href="https://otfo.cc/b/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Dec 2024 22:49:28 +0800</pubDate>
-    <lastBuildDate>Thu, 19 Dec 2024 22:49:28 +0800</lastBuildDate>
+    <pubDate>Sun, 22 Dec 2024 00:08:37 +0800</pubDate>
+    <lastBuildDate>Sun, 22 Dec 2024 00:08:37 +0800</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>王卡-亲子版</title>
+        <description>&lt;p&gt;月租10元，首充100元送648元(每月返9元抵扣月租，一共返72个月)。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.uuu.ovh/imgs/2024/12/21/969102e766dbc14e.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div id=&quot;iframe-container&quot;&gt;
+  &lt;!-- 加载提示 --&gt;
+  &lt;p id=&quot;loading-message&quot;&gt;正在加载，请稍候...&lt;/p&gt;
+
+  &lt;!-- iframe --&gt;
+  &lt;iframe src=&quot;https://172.lot-ml.com/h5orderEn/index?pudID=e83b50e06345f5c7&amp;amp;userid=6babd1bdd232e810&quot; width=&quot;100%&quot; height=&quot;618px&quot; onload=&quot;document.getElementById(&apos;loading-message&apos;).style.display = &apos;none&apos;; onIframeLoad();&quot; onerror=&quot;document.getElementById(&apos;loading-message&apos;).innerText=&apos;加载失败，请刷新页面。&apos;;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/2024/12/21/da-wang-ka.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/2024/12/21/da-wang-ka.html</guid>
+        
+        <category>card</category>
+        
+        
+      </item>
     
       <item>
         <title>模组更新</title>
@@ -432,53 +458,6 @@
         <category>mod</category>
         
         <category>help</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>BM404 飞机</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;本文介绍模组 &lt;strong&gt;飞机&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
-
-&lt;p&gt;内容有待更新…&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;百度网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.baidu.com/s/1H0r9mrvvtrW98o0-v-0VyA&quot;&gt;https://pan.baidu.com/s/1H0r9mrvvtrW98o0-v-0VyA&lt;/a&gt; 提取码：otfc&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;夸克网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.quark.cn/s/99c1d57f17c8&quot;&gt;https://pan.quark.cn/s/99c1d57f17c8&lt;/a&gt; 提取码：1b9v&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;迅雷网盘&lt;/strong&gt;：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbYWjIeXK2RN4MTAx7Mm2A1&quot;&gt;https://pan.xunlei.com/s/VOCCbYWjIeXK2RN4MTAx7Mm2A1&lt;/a&gt; 提取码：yj9u&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;123网盘&lt;/strong&gt;：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;https://www.123pan.com/s/IC8lVv-ftuAv.html&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;为避免损坏存档，使用前请备份游戏存档。&lt;/li&gt;
-  &lt;li&gt;可能与其他模组存在冲突，建议单独测试。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;本文内容持续更新，欢迎反馈意见。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
-        <link>https://otfo.cc/b/2024/11/22/BM404-%E9%A3%9E%E6%9C%BA.html</link>
-        <guid isPermaLink="true">https://otfo.cc/b/2024/11/22/BM404-%E9%A3%9E%E6%9C%BA.html</guid>
-        
-        <category>mod</category>
-        
-        <category>play</category>
         
         
       </item>
