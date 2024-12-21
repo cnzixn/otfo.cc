@@ -1,5 +1,4 @@
 ---
-title: mod-update-log
 title: 模组更新
 layout: post
 author: Bny
