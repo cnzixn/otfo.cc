@@ -7,7 +7,7 @@ layout: null
 {% for post in site.posts %}
   {
     "title": "{{ post.title | escape }}",
-    "url": "{{ post.url | relative_url }}",
+    "url": "{{ post.url | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}",
     "date": "{{ post.date | date: '%Y-%m-%d' }}",
     "tags": "{{ post.tags | join: ', ' | escape }}",
     "content": "{{ post.content | strip_html | strip_newlines | escape }}"
