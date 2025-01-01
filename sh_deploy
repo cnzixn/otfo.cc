@@ -32,9 +32,6 @@ git rm -rf .
 # 将 _site 文件夹内容复制到 gh-pages 分支根目录
 git checkout master -- CNAME
 git checkout master -- _site
-# 压缩网站
-bash ./_site/sh_compress
-
 cp -r ./_site "./$dir"
 cp -r "./$dir/s" .
 cp "./$dir/index.html" .
@@ -43,6 +40,8 @@ git rm -rf deploy.sh
 git rm -rf start.sh
 git rm -rf _site
 
+# 压缩网站
+bash ./$dir/sh_compress
 
 # 提交并推送到 gh-pages 分支
 git add .
