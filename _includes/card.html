@@ -1,15 +1,9 @@
 <!-- section.scss -->
-<a href="{{ post.url | relative_url }}">
+<a href="{{ post.url | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
   <div class="section-card">
     <h2 class="section-card-title">
       {% if post.tags contains "top" %}
-        <span class="section-card-label">置顶</span>
-      {% elsif post_date == today %}
-        <!-- <span class="card__titil-label">新</span> -->
-      {% elsif post_date >= one_week_ago %}
-        <!-- <span class="card__titil-label">本周</span> -->
-      {% elsif post_date >= thirty_days_ago %}
-        <!-- <span class="card__titil-label">本月</span> -->
+        <span class="section-card-label">[置顶]</span>
       {% else %}
         <!-- <span class="card__titil-label"></span> -->
       {% endif %}

@@ -669,9 +669,16 @@ footer {
 }
 
 /*文章*/
+/*短链接*/
 .short-link-input:focus {
   outline: none;
-  border: 1px solid #ccc; /* 可选，保持原有边框 */
+}
+
+.copy-message {
+  margin-left: 10px;
+  color: green;
+  font-size: 0.9em;
+  display: inline-block;
 }
 
 /* 取消 post-toc-details 选中或聚焦时的高亮 */

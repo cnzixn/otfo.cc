@@ -5,8 +5,8 @@
     <description></description>
     <link>https://otfo.cc/b/</link>
     <atom:link href="https://otfo.cc/b/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Dec 2024 14:30:51 +0800</pubDate>
-    <lastBuildDate>Sun, 22 Dec 2024 14:30:51 +0800</lastBuildDate>
+    <pubDate>Wed, 01 Jan 2025 18:19:56 +0800</pubDate>
+    <lastBuildDate>Wed, 01 Jan 2025 18:19:56 +0800</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -31,6 +31,8 @@
         <guid isPermaLink="true">https://otfo.cc/b/2024/12/21/wang-ka.html</guid>
         
         <category>card</category>
+        
+        <category>hide</category>
         
         
       </item>

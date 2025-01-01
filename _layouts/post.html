@@ -20,6 +20,7 @@ layout: page
       onclick="copyShortLink()"
       class="short-link-input"
     />
+    <span id="copyMessage" class="copy-message" style="display: none;">已复制</span>
   </small>
 </div>
 
@@ -40,7 +41,7 @@ layout: page
 {{content}}
 
 
-<!-- {% if page.waline %} -->
+{% if page.waline %}
   <hr class="post-custom-line">
   <div id="waline"></div>
   <script type="module">
@@ -56,7 +57,7 @@ layout: page
       login: 'force', // 强制要求登录
     });
   </script>
-<!-- {% endif %} -->
+{% endif %}
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>

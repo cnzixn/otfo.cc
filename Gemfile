@@ -6,7 +6,6 @@ gem "kramdown-parser-gfm"
 
 gem "jekyll-seo-tag"
 
-
 # web后台
 gem "jekyll-assets"
 gem "webrick"
@@ -21,3 +20,6 @@ end
 # 评论系统
 # gem 'jekyll-disqus'
 
+gem 'htmlcompressor'
+gem 'cssminify'
+gem 'terser'

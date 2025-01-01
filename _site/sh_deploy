@@ -15,7 +15,12 @@ dir="b"
 # 切换到主分支，构建站点并提交更改
 git checkout -b master
 git checkout master
+
+# 构建站点，并压缩
 jekyll build
+bash sh_compress
+
+# 添加文件，提交
 git add .
 git commit -m "Update master at $(date '+%Y-%m-%d %H:%M:%S')"
 git push origin master --force

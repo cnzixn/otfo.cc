@@ -1,11 +1,11 @@
 require 'digest'
-require 'json'
+require 'yaml'
 
 module Jekyll
   class ShortLinkGenerator < Generator
     priority :high # 提高插件优先级
 
-    REDIRECTS_FILE = 'short.json' # JSON 文件保存位置
+    REDIRECTS_FILE = '_data/links_short.yml' # YML 文件保存位置
 
     def generate(site)
       # 加载现有的短链接映射或初始化为空
@@ -14,10 +14,10 @@ module Jekyll
       site.posts.docs.each do |post|
         # 确定短链接代码
         short_code = if post.data["scode"]
-                       post.data["scode"]
+                       post.data["scode"].downcase # 如果 scode 存在，转为小写
                      else
                        file_name = post.basename
-                       "a" + Digest::MD5.hexdigest(file_name)[0, 5].downcase
+                       "S" + Digest::MD5.hexdigest(file_name)[0, 5].downcase # 生成小写短码
                      end
 
         # 更新短链接映射
@@ -35,28 +35,28 @@ module Jekyll
         site.pages << short_link_page
       end
 
-      # 更新或保存 short.json 文件
-      # save_redirects_json(short_links)
+      # 更新或保存 short.yml 文件
+      save_redirects_yml(short_links)
     end
 
     private
 
-    # 加载现有的 JSON 文件，如果不存在，则返回一个空哈希
+    # 加载现有的 YML 文件，如果不存在，则返回一个空哈希
     def load_existing_redirects
       if File.exist?(REDIRECTS_FILE)
         # 如果文件存在，读取并解析内容
-        JSON.parse(File.read(REDIRECTS_FILE))
+        YAML.load_file(REDIRECTS_FILE) || {}
       else
         # 如果文件不存在，返回一个空的映射
         {}
       end
     end
 
-    # 保存更新后的 JSON 文件
-    def save_redirects_json(short_links)
-      # 将更新后的短链接映射写入 short.json 文件
+    # 保存更新后的 YML 文件
+    def save_redirects_yml(short_links)
+      # 将更新后的短链接映射写入 short.yml 文件
       File.open(REDIRECTS_FILE, 'w') do |file|
-        file.write(JSON.pretty_generate(short_links))
+        file.write(short_links.to_yaml)
       end
       Jekyll.logger.info "ShortLinkGenerator:", "Updated #{REDIRECTS_FILE}"
     end
