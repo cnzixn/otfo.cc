@@ -1,1 +1,9 @@
-function copyShortLink(){var e=document.getElementById("shortLink"),n=document.getElementById("copyMessage");e.select(),document.execCommand("copy"),n.style.display="inline",setTimeout((function(){n.style.display="none"}),2e3)}
+// <script>
+  // 复制链接
+  function copyShortLink() {
+    var copyText = document.getElementById('shortLink');
+    copyText.select();
+    document.execCommand('copy');
+    // alert("链接已复制到剪贴板！");
+  }
+// </script>

@@ -16,9 +16,8 @@ dir="b"
 git checkout -b master
 git checkout master
 
-# 构建站点，并压缩
+# 构建站点
 jekyll build
-bash sh_compress
 
 # 添加文件，提交
 git add .
@@ -33,7 +32,10 @@ git rm -rf .
 # 将 _site 文件夹内容复制到 gh-pages 分支根目录
 git checkout master -- CNAME
 git checkout master -- _site
-git checkout master -- redirects.json
+
+# 压缩网站
+bash sh_compress
+
 cp -r ./_site "./$dir"
 cp -r "./$dir/s" .
 cp "./$dir/index.html" .

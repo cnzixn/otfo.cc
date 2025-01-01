@@ -5,26 +5,8 @@ layout: page
 <div class="section">
   <ul>
     <!-- 置顶帖子 -->
-    {% for post in site.posts %}
+    {% for post in site.pages %}
       {% if post.tags contains "top" %}
-        {% if page.section == "all" or post.tags contains page.section %}
-          {% if post.tags contains "hide" %}
-            {% continue %}
-          {% endif %}
-          <li data-url="{{ post.url | prepend: site.baseurl }}">
-            {% include card.html post=post %}
-          </li>
-        {% endif %}
-      {% else %}
-        <!-- 跳过普通帖子 -->
-      {% endif %}
-    {% endfor %}
-
-    <!-- 普通帖子 -->
-    {% for post in site.posts %}
-      {% if post.tags contains "top" %}
-        <!-- 跳过置顶帖子 -->
-      {% else %}
         {% if page.section == "all" or post.tags contains page.section %}
           {% if post.tags contains "hide" %}
             {% continue %}
@@ -34,6 +16,20 @@ layout: page
           </li>
         {% endif %}
       {% endif %}
+    {% endfor %}
+
+    <!-- 普通帖子 -->
+    {% for post in site.pages %}
+      {% unless post.tags contains "top" %}
+        {% if page.section == "all" or post.tags contains page.section %}
+          {% if post.tags contains "hide" %}
+            {% continue %}
+          {% endif %}
+          <li data-url="{{ post.url | prepend: site.baseurl }}">
+            {% include card.html post=post %}
+          </li>
+        {% endif %}
+      {% endunless %}
     {% endfor %}
   </ul>
 </div>

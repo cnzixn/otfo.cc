@@ -10,9 +10,6 @@
       {{ post.title }}
     </h2>
 
-    {% assign file_date = post.path | split: '/' | last | split: '.' | first | split: '-' | slice: 0, 3 | join: '-' %}
-    <p class="section-card-original">[发布日期: {{ file_date }}]</p>
-
     <p class="section-card-excerpt">
       {{ post.excerpt | strip_html | truncate: 100, "..." }}
     </p>

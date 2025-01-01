@@ -18,6 +18,11 @@ plugins:
   # - jekyll-assets
   - jekyll-seo-tag
 
+collections:
+  pages:
+    output: true
+    permalink: /page/post/:title.html
+
 assets:
   compress: true
   cache: false
