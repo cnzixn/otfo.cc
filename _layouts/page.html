@@ -67,10 +67,12 @@
         </small></p>
       </footer>
     </div>
+    
+    {% include code-block.html %}
+    <script src="{{ '/assets/js/toc.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+    <script src="{{ '/assets/js/search.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+    <script src="{{ '/assets/js/copy_short_link.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </body>
-  <script src="{{ '/assets/js/toc.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-  <script src="{{ '/assets/js/search.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-  <script src="{{ '/assets/js/copy_short_link.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </html>

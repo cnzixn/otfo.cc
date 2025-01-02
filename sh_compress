@@ -7,25 +7,25 @@
 echo "开始压缩 _site 目录中的文件..."
 
 # 压缩 HTML 文件
-find ./ -type f -name "*.html" | while read -r file; do
+find _site -type f -name "*.html" | while read -r file; do
   echo "正在压缩 HTML: $file"
   html-minifier --collapse-whitespace --remove-comments --minify-css true --minify-js true -o "$file" "$file"
 done
 
 # 压缩 CSS 文件
-find ./ -type f -name "*.css" | while read -r file; do
+find _site -type f -name "*.css" | while read -r file; do
   echo "正在压缩 CSS: $file"
   cssnano "$file" --output "$file"
 done
 
 # 压缩 JS 文件
-find ./ -type f -name "*.js" | while read -r file; do
+find _site -type f -name "*.js" | while read -r file; do
   echo "正在压缩 JS: $file"
   terser --compress --mangle -o "$file" -- "$file"
 done
 
 # 压缩 JSON 文件
-find ./ -type f -name "*.json" | while read -r file; do
+find _site -type f -name "*.json" | while read -r file; do
   echo "正在压缩 JSON: $file"
   temp_file=$(mktemp) # 创建临时文件
   jq -c . "$file" > "$temp_file" && mv "$temp_file" "$file"
