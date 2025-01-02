@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){var e=document.getElementById("toc-list");document.querySelectorAll("h2, h3").forEach((function(t,n){var d=document.createElement("li"),o=document.createElement("a");o.href="#"+t.id,o.textContent=t.textContent,d.appendChild(o),e.appendChild(d)}))}));
