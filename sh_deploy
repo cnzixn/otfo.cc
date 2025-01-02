@@ -13,7 +13,7 @@ dir="b"
 # git remote add origin https://github.com/cnzixn/otfo.cc.git
 
 # 切换到主分支，构建站点并提交更改
-git checkout -b master
+# git checkout -b master
 git checkout master
 
 # 构建站点
@@ -28,7 +28,7 @@ git push origin master --force
 bash sh_compress
 
 # 切换到 gh-pages 分支，清空内容
-git checkout -b gh-pages
+# git checkout -b gh-pages
 git checkout gh-pages
 git rm -rf .
 

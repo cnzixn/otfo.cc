@@ -15,7 +15,7 @@ done
 # 压缩 CSS 文件
 find _site -type f -name "*.css" | while read -r file; do
   echo "正在压缩 CSS: $file"
-  cssnano "$file" --output "$file"
+  cssnano "$file" >> temp && mv temp "$file"
 done
 
 # 压缩 JS 文件
