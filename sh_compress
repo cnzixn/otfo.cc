@@ -8,6 +8,11 @@ echo "开始压缩 _site 目录中的文件..."
 
 # 压缩 HTML 文件
 find _site -type f -name "*.html" | while read -r file; do
+  # 跳过以 /s/ 开头的短链接网页
+  if echo "$file" | grep -q "/s/"; then
+    echo "跳过压缩: $file"
+    continue
+  fi
   echo "正在压缩 HTML: $file"
   html-minifier --collapse-whitespace --remove-comments --minify-css true --minify-js true -o "$file" "$file"
 done
