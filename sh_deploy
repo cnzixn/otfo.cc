@@ -25,7 +25,7 @@ git commit -m "Update master at $(date '+%Y-%m-%d %H:%M:%S')"
 git push origin master --force
 
 # 压缩网站
-bash ./$dir/sh_compress
+bash sh_compress
 
 # 切换到 gh-pages 分支，清空内容
 git checkout -b gh-pages
