@@ -16,13 +16,13 @@ dir="b"
 # git checkout -b master
 git checkout master
 
-# 构建站点
-jekyll build
-
 # 添加文件，提交
 git add .
 git commit -m "Update master at $(date '+%Y-%m-%d %H:%M:%S')"
 git push origin master --force
+
+# 构建站点
+jekyll build
 
 # 压缩网站
 bash sh_compress
