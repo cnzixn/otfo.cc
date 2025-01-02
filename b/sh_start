@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# cd /sdcard/acode/otfo/ ; bash sh_start
-
-# bundle install
-# jekyll build
-# jekyll clean
-jekyll serve

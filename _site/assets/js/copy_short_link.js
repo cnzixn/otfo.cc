@@ -1,1 +1,0 @@
-function copyShortLink(){document.getElementById("shortLink").select(),document.execCommand("copy")}
