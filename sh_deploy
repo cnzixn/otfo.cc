@@ -31,18 +31,16 @@ bash sh_compress
 # 切换到 gh-pages 分支，清空内容
 git checkout -b gh-pages
 git checkout gh-pages
-git rm -rf .
 
 # 将 _site 文件夹内容复制到 gh-pages 分支根目录
+git checkout master -- .gitignore
 git checkout master -- CNAME
-git checkout master -- _site
 cp -r ./_site "./$dir"
 cp -r "./$dir/s" .
 cp "./$dir/index.html" .
 cp "./$dir/404.html" .
 git rm -rf deploy.sh
 git rm -rf start.sh
-git rm -rf _site
 
 # 提交并推送到 gh-pages 分支
 git add .
