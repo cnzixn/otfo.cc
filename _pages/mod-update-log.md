@@ -3,9 +3,9 @@ layout: post
 title: 模组更新
 date: 2025-01-01
 tags:
-- log
-- mod
-- top
+- 日志
+- 模组
+- 置顶
 scode: mlog
 reading_time: 1
 ---

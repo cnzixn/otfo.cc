@@ -5,4 +5,4 @@
 # bundle install
 # jekyll build
 # jekyll clean
-jekyll serve
+bundle exec jekyll serve

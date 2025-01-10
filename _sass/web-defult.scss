@@ -96,32 +96,17 @@ blockquote p:last-child {
 }
 
 /* 错误消息样式 */
-.not-found {
+.not-found a {
     position: absolute;      /* 设置绝对定位 */
     top: 50%;                /* 距离顶部50% */
     left: 50%;               /* 距离左边50% */
     transform: translate(-50%, -50%); /* 向左和向上移动自身宽度和高度的一半 */
-    font-size: 8rem;         /* 大字体 */
+    font-size: 10rem;         /* 大字体 */
     color: #333;
     letter-spacing: 0.1em;   /* 字母间距 */
     text-align: center;      /* 使文本水平居中 */
 }
 
-footer {
-  display: flex;
-  padding: 0.2rem 0px 0; /* 可选：增加一些内边距 */
-  overflow-x: auto;
-  white-space: nowrap;
-  justify-content: center; /* 水平居中内容 */
-  text-align: center; /* 使文本内容在每行内居中 */
-  position: fixed;
-  bottom: -0.8rem;
-  left: 0;
-  right: 0;
-  width: 100%; /* 确保背景宽度为100% */
-  background-color: #f8f9fa; /* 可选背景颜色 */
-  z-index: 1000;
-}
 
 
 /*赞助页面*/
@@ -168,4 +153,3 @@ footer {
   color: #555;
   text-align: center;
 }
-

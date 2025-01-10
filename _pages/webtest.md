@@ -4,6 +4,7 @@ title: "Test"
 date: 2024-01-01
 author: "Bny"
 tags: 
+- 测试
 scode: test
 reading_time: 1
 toc: true

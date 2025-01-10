@@ -2,7 +2,7 @@
 <a href="{{ post.url | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
   <div class="section-card">
     <h2 class="section-card-title">
-      {% if post.tags contains "top" %}
+      {% if post.tags contains "置顶" %}
         <span class="section-card-label">[置顶]</span>
       {% else %}
         <!-- <span class="card__titil-label"></span> -->

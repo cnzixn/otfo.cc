@@ -3,33 +3,35 @@ layout: page
 ---
 {{ content }}
 <div class="section">
-  <ul>
-    <!-- 置顶帖子 -->
-    {% for post in site.pages %}
-      {% if post.tags contains "top" %}
-        {% if page.section == "all" or post.tags contains page.section %}
-          {% if post.tags contains "hide" %}
-            {% continue %}
-          {% endif %}
-          <li data-url="{{ post.url | prepend: site.baseurl }}">
-            {% include card.html post=post %}
-          </li>
+{% assign pages_sorted = site.pages | sort: 'date' | reverse %}
+<ul>
+  <!-- 置顶帖子 -->
+  {% for post in pages_sorted %}
+    {% if post.tags contains "置顶" %}
+      {% if page.section == "全部" or post.tags contains page.section %}
+        {% if post.tags contains "隐藏" %}
+          {% continue %}
         {% endif %}
+        <li data-url="{{ post.url | prepend: site.baseurl }}">
+          {% include card.html post=post %}
+        </li>
       {% endif %}
-    {% endfor %}
+    {% endif %}
+  {% endfor %}
 
-    <!-- 普通帖子 -->
-    {% for post in site.pages %}
-      {% unless post.tags contains "top" %}
-        {% if page.section == "all" or post.tags contains page.section %}
-          {% if post.tags contains "hide" %}
-            {% continue %}
-          {% endif %}
-          <li data-url="{{ post.url | prepend: site.baseurl }}">
-            {% include card.html post=post %}
-          </li>
+  <!-- 普通帖子 -->
+  {% for post in pages_sorted %}
+    {% unless post.tags contains "置顶" %}
+      {% if page.section == "全部" or post.tags contains page.section %}
+        {% if post.tags contains "隐藏" %}
+          {% continue %}
         {% endif %}
-      {% endunless %}
-    {% endfor %}
-  </ul>
+        <li data-url="{{ post.url | prepend: site.baseurl }}">
+          {% include card.html post=post %}
+        </li>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+</ul>
 </div>
+

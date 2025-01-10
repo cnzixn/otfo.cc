@@ -12,7 +12,12 @@
   right: 0; /* 导航栏到达页面的右边 */
   background-color: #f8f9fa; /* 设置背景颜色为浅灰色，确保导航栏背景明显 */
   z-index: 1000; /* 设置较高的层级，确保导航栏在其他元素之上 */
+  transition: transform 0.3s ease-in-out; /* 添加平滑动画 */
 }
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+
 
 .navbar::-webkit-scrollbar {
   display: none; /* 隐藏滚动条（Chrome, Safari） */
@@ -40,4 +45,25 @@
     padding: 0 3px;
     font-size: 15px;
     color: #666;
+}
+
+/*网页页脚*/
+footer {
+  display: flex;
+  padding: 0.2rem 0px 0; /* 可选：增加一些内边距 */
+  overflow-x: auto;
+  white-space: nowrap;
+  justify-content: center; /* 水平居中内容 */
+  text-align: center; /* 使文本内容在每行内居中 */
+  position: fixed;
+  bottom: -0.8rem;
+  left: 0;
+  right: 0;
+  width: 100%; /* 确保背景宽度为100% */
+  background-color: #f8f9fa; /* 可选背景颜色 */
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out; /* 添加平滑动画 */
+}
+footer.hidden {
+  transform: translateY(100%); /* 页脚向下隐藏 */
 }

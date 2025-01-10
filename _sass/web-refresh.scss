@@ -1,0 +1,31 @@
+
+
+/*下拉刷新*/
+#refreshMessage {
+  position: fixed;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 9999;
+  transition: opacity 0.5s ease;
+}
+
+#refreshMessage p {
+  margin: 0;  /* 清除 p 标签的默认外边距 */
+  padding: 0; /* 清除 p 标签的默认内边距 */
+}
+
+#refreshMessage.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#refreshMessage.visible {
+  opacity: 1;
+}
+
+

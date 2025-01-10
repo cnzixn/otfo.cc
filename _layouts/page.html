@@ -47,6 +47,10 @@
           </div>
         {% endif %}
       </header>
+      
+      <div id="refreshMessage" class="hidden">
+        <p>继续下拉，刷新页面...</p>
+      </div>
 
       <!-- 页面内容 -->
       <div class="content">
@@ -55,9 +59,6 @@
 
       <!-- 页脚内容 -->
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
         <p><small>© 2024 - 2025 <a href={{ '/' | relative_url}}>{{site.title}}</a>, Powered by <a href="https://jekyllrb.com">Jekyll</a> & <a href="https://github.com/pages-themes/minimal">Minimal</a> Theme.
           <a href="{{ '/feed.xml' | relative_url }}" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 24 24">
@@ -67,12 +68,12 @@
         </small></p>
       </footer>
     </div>
-    
-    {% include code-block.html %}
-    <script src="{{ '/assets/js/toc.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-    <script src="{{ '/assets/js/search.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-    <script src="{{ '/assets/js/copy_short_link.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
   </body>
+  <script src="{{ '/assets/js/mobile.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+  <script src="{{ '/assets/js/refresh.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+  <script src="{{ '/assets/js/toc.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+  <script src="{{ '/assets/js/copy_short_link.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </html>

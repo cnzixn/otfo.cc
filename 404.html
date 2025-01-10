@@ -3,4 +3,78 @@ layout: section
 section: 404
 ---
 
-<div class="not-found">404</div>
+<div class="not-found">
+  <a href="{{ '/' | absolute_url }}">
+    404
+  </a>
+</div>
+
+<!-- 弹窗的HTML -->
+<div id="mobile-alert" class="mobile-alert">
+  <div class="alert-content">
+    <p>网站仅支持手机浏览</p>
+    <button id="close-alert">关闭</button>
+  </div>
+</div>
+
+<!-- 样式 -->
+<style>
+  .mobile-alert {
+    display: none; /* 默认隐藏 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .alert-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+  }
+
+  .alert-content p {
+    font-size: 48px; /* 增大文字大小 */
+    color: #444;
+    margin: 0 0 20px;
+  }
+
+  .mobile-alert button {
+    padding: 15px 30px;
+    background-color: #267CB9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* 增大按钮文字 */
+  }
+
+  .mobile-alert button:hover {
+    background-color: #069;
+  }
+</style>
+
+<!-- JavaScript -->
+<script>
+  // 检测设备是否为手机
+  function isMobile() {
+    return /Mobi|Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(window.navigator.userAgent);
+  }
+
+  // 如果不是手机设备，显示弹窗
+  if (!isMobile()) {
+    document.getElementById('mobile-alert').style.display = 'flex';
+  }
+
+  // 关闭弹窗的按钮
+  document.getElementById('close-alert').onclick = function() {
+    document.getElementById('mobile-alert').style.display = 'none';
+  };
+</script>
