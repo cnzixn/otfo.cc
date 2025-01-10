@@ -19,7 +19,8 @@ git checkout master
 
 # 构建站点
 rm -rf _site
-jekyll build
+bundle exec jekyll build
+
 # 压缩网站
 bash sh_compress
 
