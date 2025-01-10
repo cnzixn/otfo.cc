@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BM</title>
+    <description></description>
+    <link>https://otfo.cc/b/</link>
+    <atom:link href="https://otfo.cc/b/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 11 Jan 2025 04:15:06 +0800</pubDate>
+    <lastBuildDate>Sat, 11 Jan 2025 04:15:06 +0800</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>Test</title>
+        <description>&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/b/another-page.html&quot;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There should be whitespace between paragraphs.&lt;/p&gt;
+
+&lt;p&gt;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&lt;/p&gt;
+
+&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;/h1&gt;
+
+&lt;p&gt;This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.&lt;/p&gt;
+
+&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote following a header.&lt;/p&gt;
+
+  &lt;p&gt;When something is important enough, you do it even if the odds are not in your favor.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;header-3&quot;&gt;Header 3&lt;/h3&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Javascript code with syntax highlighting.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fun&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;dateformat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i18n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./lang/&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Ruby code with syntax highlighting&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;GitHubPages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dependencies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;add_dependency&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;= &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;header-4&quot;&gt;Header 4&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;header-5&quot;&gt;Header 5&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id=&quot;header-6&quot;&gt;Header 6&lt;/h6&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;head1&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;head two&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;three&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good swedish fish&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;out of stock&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good and plenty&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oreos&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;hmm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zoute&lt;/code&gt; drop&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;yumm&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;theres-a-horizontal-rule-below-this&quot;&gt;There’s a horizontal rule below this.&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;here-is-an-unordered-list&quot;&gt;Here is an unordered list&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Item foo&lt;/li&gt;
+  &lt;li&gt;Item bar&lt;/li&gt;
+  &lt;li&gt;Item baz&lt;/li&gt;
+  &lt;li&gt;Item zip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;and-an-ordered-list&quot;&gt;And an ordered list&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Item one&lt;/li&gt;
+  &lt;li&gt;Item two&lt;/li&gt;
+  &lt;li&gt;Item three&lt;/li&gt;
+  &lt;li&gt;Item four&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;and-a-nested-list&quot;&gt;And a nested list&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item
+        &lt;ul&gt;
+          &lt;li&gt;level 3 item&lt;/li&gt;
+          &lt;li&gt;level 3 item&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;small-image&quot;&gt;Small image&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.githubassets.com/images/icons/emoji/octocat.png&quot; alt=&quot;Octocat&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;large-image&quot;&gt;Large image&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://guides.github.com/activities/hello-world/branching.png&quot; alt=&quot;Branching&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;definition-lists-can-be-used-with-html-syntax&quot;&gt;Definition lists can be used with HTML syntax.&lt;/h3&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;Name&lt;/dt&gt;
+&lt;dd&gt;Godzilla&lt;/dd&gt;
+&lt;dt&gt;Born&lt;/dt&gt;
+&lt;dd&gt;1952&lt;/dd&gt;
+&lt;dt&gt;Birthplace&lt;/dt&gt;
+&lt;dd&gt;Japan&lt;/dd&gt;
+&lt;dt&gt;Color&lt;/dt&gt;
+&lt;dd&gt;Green&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The final element.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 01 Jan 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/page/post/webtest.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/page/post/webtest.html</guid>
+        
+        <category>测试</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>框架更新 24.10.01</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;241001 框架更新日志…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;1、物品栏：修复 -&amp;gt; 无法使用“动作弹窗”。&lt;/p&gt;
+
+&lt;p&gt;2、设置界面：新增 -&amp;gt; 对“HUD边距”进行调整。&lt;/p&gt;
+
+&lt;p&gt;3、HUD布局：调整 -&amp;gt; 部分按钮的位置和大小。&lt;/p&gt;
+
+&lt;p&gt;4、移动轮盘：新增算法 -&amp;gt; 防止“误触”而向左下移动。(大拇指下方肉肉总是误触屏幕，烦死)&lt;/p&gt;
+
+&lt;p&gt;5、布局优化：新增 -&amp;gt; 联机版风格的制作栏2。&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Tue, 01 Oct 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/page/post/update-log-241001.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/page/post/update-log-241001.html</guid>
+        
+        <category>日志</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>框架更新 24.11.01</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;241101 框架更新日志…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;0、设置界面：新增 -&amp;gt; 存档目录，修改存档的保存位置。&lt;/p&gt;
+
+&lt;p&gt;1、BM IME：更新 -&amp;gt; 重写代码，兼容所有输入框。&lt;/p&gt;
+
+&lt;p&gt;2、制作栏2：修复 -&amp;gt; 制作栏“标签”图标显示错误。&lt;/p&gt;
+
+&lt;p&gt;3、布局优化：(尝试)修复 -&amp;gt; 卸下背包有概率崩溃。&lt;/p&gt;
+
+&lt;p&gt;4、下雨灭火：调整 -&amp;gt; 只能扑灭“冒烟”的物体。&lt;/p&gt;
+
+&lt;p&gt;5、毁灭种子：给予“洞二入口”时只会重置“远古”。&lt;/p&gt;
+
+&lt;p&gt;6、灭火器：修复 -&amp;gt; 着火时“重复”开启而无法灭火。&lt;/p&gt;
+
+&lt;p&gt;7、物品：调整 -&amp;gt; 黄金斧头、黄金砍刀改为34点攻击(同“长矛”)。&lt;/p&gt;
+
+&lt;p&gt;8、备份还原：(重写代码)模组界面»双击右侧黑兔子»可对存档文件进行“修复”、“导出”、“导入”操作。&lt;/p&gt;
+
+&lt;p&gt;9、布局优化：移除“火箭”按钮；(恢复旧版代码)新增3个装备栏物品的“使用”按钮。&lt;/p&gt;
+
+&lt;p&gt;10、条件反射：优化 -&amp;gt; 批量建造(种植)的顺序。&lt;/p&gt;
+
+&lt;p&gt;11、传送平台：(集齐零件)激活时清除“地图迷雾”(地图全开)。&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/page/post/update-log-241101.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/page/post/update-log-241101.html</guid>
+        
+        <category>日志</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>模组 - 如何安装？</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;安装模组：将模组文件“添加”到游戏安装包中，强烈推荐使用MT管理器进行操作……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;教程&quot;&gt;教程&lt;/h2&gt;
+
+&lt;div class=&quot;post-video-player&quot;&gt;
+  &lt;iframe src=&quot;https://player.bilibili.com/player.html?bvid=BV1k8UFYAEjq&quot; width=&quot;100%&quot; height=&quot;auto&quot; style=&quot;aspect-ratio: 16/9;&quot; frameborder=&quot;0&quot; scrolling=&quot;yes&quot; allowfullscreen=&quot;true&quot;&gt;
+  &lt;/iframe&gt;
+  &lt;p style=&quot;text-align: center; margin: 5px;&quot;&gt;
+      &lt;a href=&quot;bilibili://video/BV1k8UFYAEjq&quot; target=&quot;_blank&quot; style=&quot;color: #00a1d6; text-decoration: none;&quot;&gt;
+          在哔哩哔哩中观看高清视频
+      &lt;/a&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;教程用到的文件&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;#工具&quot;&gt;工具&lt;/a&gt;：MT管理器&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#游戏&quot;&gt;游戏&lt;/a&gt;：ShipWrecked 1.33.4&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#框架&quot;&gt;框架&lt;/a&gt;：BMXXXX.123~133.ZIP&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#模组&quot;&gt;模组&lt;/a&gt;：BM035.人物.千年狐.ZIP&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;工具&quot;&gt;工具&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;文件管理神器&lt;br /&gt;
+　MT管理器 是一款 Android 平台的文件管理 &amp;amp; 逆向修改工具，操作简单、功能强大。&lt;br /&gt;
+　官网下载：&lt;a href=&quot;https://mt2.cn&quot;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;游戏&quot;&gt;游戏&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;推荐 1.33.4 版本&lt;br /&gt;
+　饥荒：船难（Don’t Starve: Shipwrecked）是 Klei Entertainment 和 CAPY Games 联合开发的一款DLC扩展包。&lt;br /&gt;
+　下载地址：&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Play商店：&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.kleientertainment.doNotStarveShipwrecked&quot;&gt;点击下载&lt;/a&gt;  付费购买&lt;/li&gt;
+    &lt;li&gt;夸克网盘：&lt;a href=&quot;https://pan.quark.cn/s/b7c8f92aff8e&quot;&gt;点击下载&lt;/a&gt; 提取码：WdEE&lt;/li&gt;
+    &lt;li&gt;百度网盘：&lt;a href=&quot;https://pan.baidu.com/s/1k4I6-C5MT_JeY9ZNszTzpw&quot;&gt;点击下载&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+    &lt;li&gt;迅雷网盘：&lt;a href=&quot;https://pan.xunlei.com/s/VOC9AHL05vggFKolQUMYZVBmA1&quot;&gt;点击下载&lt;/a&gt; 提取码：zitt&lt;/li&gt;
+    &lt;li&gt;123网盘：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ptuAv.html&quot;&gt;点击下载&lt;/a&gt; 提取码：MlkG&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;框架&quot;&gt;框架&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;已适配官方原版&lt;br /&gt;
+　兔人框架 适配 ShipWrecked 1.23 以上版本，包括最新的 1.33.4 版本。&lt;br /&gt;
+　下载地址：&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;百度网盘：&lt;a href=&quot;https://pan.baidu.com/s/1nisTYPOcnZENhuhZZllaXA&quot;&gt;点击下载&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+    &lt;li&gt;夸克网盘：&lt;a href=&quot;https://pan.quark.cn/s/bf814f054cd3&quot;&gt;点击下载&lt;/a&gt; 提取码：UT8J&lt;/li&gt;
+    &lt;li&gt;迅雷网盘：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCetoIkJydv9dJUMRDcfhoA1&quot;&gt;点击下载&lt;/a&gt; 提取码：wm45&lt;/li&gt;
+    &lt;li&gt;123网盘：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-xtuAv.html&quot;&gt;点击下载&lt;/a&gt; 提取码：z11X&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组&quot;&gt;模组&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;已适配兔人框架&lt;br /&gt;
+　兔人模组 是玩家从“创意工坊”中移植的模组，经过适配后与兔人框架配合使用。&lt;br /&gt;
+　通过 &lt;a href=&quot;/b/page/search&quot;&gt;【搜索页面】&lt;/a&gt; 搜索可获取最新版本的模组文件。如果文件已转存到自己的网盘，可能无法获取到更新后的文件，请删除网盘中的旧文件，并重新转存。&lt;br /&gt;
+　下载地址：&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;百度网盘：&lt;a href=&quot;https://pan.baidu.com/s/1fwKl199sdPrrkUOUrwADFA&quot;&gt;点击下载&lt;/a&gt; 提取码：otfc&lt;/li&gt;
+    &lt;li&gt;夸克网盘：&lt;a href=&quot;https://pan.quark.cn/s/6368b2aabbad&quot;&gt;点击下载&lt;/a&gt; 提取码：hdLK&lt;/li&gt;
+    &lt;li&gt;迅雷网盘：&lt;a href=&quot;https://pan.xunlei.com/s/VOC9fKcAKT7Av35IhFifm7aXA1&quot;&gt;点击下载&lt;/a&gt; 提取码：5jia&lt;/li&gt;
+    &lt;li&gt;123网盘：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;点击下载&lt;/a&gt; 提取码：ZFyG&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/page/post/guide.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/page/post/guide.html</guid>
+        
+        <category>资讯</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>框架 - 有什么用？</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;帮助你了解“框架”功能…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;基础优化&quot;&gt;【基础优化】&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;基础优化：无使用限制，开启后生效。&lt;/li&gt;
+  &lt;li&gt;背景图片: 可设置主界面的背景图片。(自定义背景为bmbackground.tex)&lt;/li&gt;
+  &lt;li&gt;禁用日志: 禁用控制台日志，防止游戏卡顿。&lt;/li&gt;
+  &lt;li&gt;平板模式: 大屏手机开启后更方便游戏操作。&lt;/li&gt;
+  &lt;li&gt;手柄控制: 强制禁用手柄模式，开启后才可以使用手柄控制。&lt;/li&gt;
+  &lt;li&gt;调试模式: 双击血量-&amp;gt;打开调试菜单，双击理智-&amp;gt;打开控制台。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;截图模式: 人物静止时，长按屏幕 5 秒可显示/隐藏HUD。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;字体缩放: 调整游戏中所有字体的大小。&lt;/li&gt;
+  &lt;li&gt;图标缩放: 调整控制按钮(轮盘、动作)的大小。&lt;/li&gt;
+  &lt;li&gt;地图缩放: 调整“布局优化”的左上角小地图的大小。&lt;/li&gt;
+  &lt;li&gt;装备格子: 装备栏可以设置为4(背包)、5(护符)、6(衣服)格。&lt;/li&gt;
+  &lt;li&gt;积雪特效: 可以调节游戏中冬季时的积雪强度。&lt;/li&gt;
+  &lt;li&gt;黄昏亮度: 可以调节游戏中黄昏时的画面亮度。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;彩色耐久: 耐久值显示为彩色(绿-&amp;gt;黄-&amp;gt;红)。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;种植专家：挖芦苇-&amp;gt;种在沼泽地；挖仙人掌-&amp;gt;种在沙漠地；(手持铲子)可以种蘑菇；手杖快速收割作物。&lt;/li&gt;
+  &lt;li&gt;养殖大户：兔子(螃蟹)有几率打洞；喂蜗牛-&amp;gt;蜗牛跟随玩家；石虾缩壳-&amp;gt;用镐子挖(掉落矿石)。&lt;/li&gt;
+  &lt;li&gt;木头烧炭: 燃烧后的木头有0.25~0.5的概率变为木炭。&lt;/li&gt;
+  &lt;li&gt;挖坟掘墓: 墓碑可以用镐子挖，掉落1~2块大理石。&lt;/li&gt;
+  &lt;li&gt;虫洞移植: 用铲子挖起虫洞，丢弃在地上恢复使用。&lt;/li&gt;
+  &lt;li&gt;战车保护: 战车属性加强，保护好打工仔。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;森林再生：树桩会长成小树；雨天时树种会长成树苗。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;飞墙走壁: (高度差为1)人物可以在“石墙”上行走。&lt;/li&gt;
+  &lt;li&gt;快速合成: 拥有基础材料可直接制作成品。&lt;/li&gt;
+  &lt;li&gt;材料返还: 部分道具损坏时掉落“关键”材料。&lt;/li&gt;
+  &lt;li&gt;自动修船：人不在船上，修船厂也会进行修船工作。&lt;/li&gt;
+  &lt;li&gt;丢弃取出：物品栏可“丢弃”，容器可“取出”。&lt;/li&gt;
+  &lt;li&gt;自动合并: 人物附近的可堆叠物自动合并到一起。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;对齐网格: 建造、栽种、丢弃时会自动对齐到网格。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;建造清单: 可将配方“固定”到屏幕上以便快速建造。&lt;/li&gt;
+  &lt;li&gt;血条显示：“查看”或“攻击”生物时会显示它的血条。&lt;/li&gt;
+  &lt;li&gt;三维变化: 显示出血量、饥饿、精神的数值变化(增加/减少)。&lt;/li&gt;
+  &lt;li&gt;快速装备: 查看“物体”时，自动装备所需工具(背包里除外)。&lt;/li&gt;
+  &lt;li&gt;密集种树：将“树种”的栽种间隔调整为“1”格。&lt;/li&gt;
+  &lt;li&gt;装备改造: 升级改造一些旧的装备。&lt;br /&gt;
+　　迷你雪球机：装备到手部，远程攻击(伤害0)，向目标(火焰、生物)投掷雪球。被放置时会向范围内所有“地块”投掷雪球。&lt;br /&gt;
+　　眼球塔(物品)：装备到手部，远程攻击(伤害x0.5)。眼球塔(建筑)被玩家攻击会掉落“眼球塔(物品)”。&lt;br /&gt;
+　　铥矿奖章：装备到”胸部”，获取一个“暗影护盾”(免疫影怪伤害)。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;硝石制冰: (RoG)硝石可以制作3冰块。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;传送密码：传送法阵根据宝石排列进行“配对”。&lt;/li&gt;
+  &lt;li&gt;锁定目标: 点击目标“锁定”(3s)，强制攻击被锁定的目标。&lt;/li&gt;
+  &lt;li&gt;物品整理: 拿起物品与第1格“交换”时自动整理容器内全部物品。&lt;/li&gt;
+  &lt;li&gt;物品优化: 物品隐藏名称、落地不弹跳。&lt;/li&gt;
+  &lt;li&gt;配方图标: 优化未解锁的配方图标。&lt;/li&gt;
+  &lt;li&gt;刷新机制: 猪房等刷新机制有异常，优化后不可建“刷肉机”。&lt;/li&gt;
+  &lt;li&gt;燃烧机制: (优化后)可燃物过热先“冒烟”后“着火”。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;专属优化&quot;&gt;【专属优化】&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;专属优化：限定兔人协会内部成员使用。&lt;/li&gt;
+  &lt;li&gt;挂机保护: 监测到玩家无操作，则保存并暂停游戏。&lt;/li&gt;
+  &lt;li&gt;动态更新: 重写游戏更新机制，解决游戏卡死问题。&lt;/li&gt;
+  &lt;li&gt;条件反射: 自动进行某一动作，移动时可以打断。&lt;br /&gt;
+　　强行停止: 人物“移动”可强行停止当前自动进行的动作。&lt;br /&gt;
+　　使用工具: 检测范围5；自动进行“使用”斧子、镐子、铲子、砍刀、镰刀、锄头。&lt;br /&gt;
+　　采摘拾取: 检测范围5；自动进行“采摘”作物、“拾取”便便等。&lt;br /&gt;
+　　刮毛晾肉: 检测范围15；自动进行“刮”牛毛、“晾晒”食物。&lt;br /&gt;
+　　施肥播种: 检测范围15；自动进行植物“施肥”、农场“播种”。&lt;br /&gt;
+　　重置陷阱: 检测范围15；自动进行犬牙、蜂刺、荆棘陷阱“重置”。&lt;br /&gt;
+　　新增燃料: 自动进行火坑、提灯、灭火器、矿工帽等“添加燃料”。&lt;br /&gt;
+　　自动治疗: 自动进行使用腺体、药膏等“治疗”。&lt;br /&gt;
+　　烹饪给予: 自动进行火堆“烹饪”食物、“给予”物品。&lt;br /&gt;
+　　存放取出: 自动进行向容器“存放”、“取出”同类物品。&lt;br /&gt;
+　　批量制作: 自动进行“制作”陷阱、半成品材料等。&lt;br /&gt;
+　　建造栽种: 自动进行“建造”、“栽种”等(长按-&amp;gt;拖动)。&lt;/li&gt;
+  &lt;li&gt;自动钓鱼: (条件反射)开始钓鱼后，会自动完成抛竿、收杆动作。&lt;/li&gt;
+  &lt;li&gt;自动追踪: (条件反射)查看土堆、气泡后，人物会自动追踪猎物。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;烹饪大师：自动“拿取”打开的容器中的食材放入锅子并烹饪。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;村庄玩法: “村庄”(存档0)可前往“远方”(存档x)冒险；冒险过程中随时随地可以回村庄。&lt;br /&gt;
+　　村庄世界：长白天；温和季；无猎犬；无巨兽。&lt;br /&gt;
+　　村庄地图：猪王、章鱼、眼骨、鱼骨、泄湖、格罗姆、渡渡鸟、抽奖机。&lt;br /&gt;
+　　村庄机制：永久保鲜、高等科学、过热保护、建筑保护。&lt;/li&gt;
+  &lt;li&gt;布局优化: (手机模式)优化游戏内操作按钮的布局。&lt;/li&gt;
+  &lt;li&gt;制作栏2：(布局优化)添加联机版风格的制作栏；隐藏旧版制作栏。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;物品优化&quot;&gt;【物品优化】&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;提灯：开灯时不可拾取，关灯后才可拾取。&lt;/li&gt;
+  &lt;li&gt;鸟笼：不接受(熟)鸟蛋，可以接受怪物肉。&lt;/li&gt;
+  &lt;li&gt;灭火器：不扑灭火堆；附近物品冒烟着火时自动开启。&lt;/li&gt;
+  &lt;li&gt;防火地皮：卵石地皮、棋盘地皮减缓火焰热量传导。&lt;/li&gt;
+  &lt;li&gt;农场优化：移除农场后面的“木棍”、“木片”。&lt;/li&gt;
+  &lt;li&gt;晾肉架：修复一直处于“雨天暂停状态”的问题。&lt;/li&gt;
+  &lt;li&gt;压力火泉：可以用椰子炸弹炸毁(移除)。&lt;/li&gt;
+  &lt;li&gt;浆果：可以降温，效果与西瓜相同。&lt;/li&gt;
+  &lt;li&gt;传送平台：激活时，清楚地图“迷雾”。&lt;/li&gt;
+  &lt;li&gt;骷髅坟墓：满月时，骷髅会变坟墓，坟墓会生成墓碑。&lt;/li&gt;
+  &lt;li&gt;重生护符：世界存在有护符，人物就能被复活。&lt;/li&gt;
+  &lt;li&gt;阿比盖尔：优先跟随玩家，打架不会上头。&lt;/li&gt;
+  &lt;li&gt;冰箱：冰淇淋、水母冻、香蕉冻、西瓜冰不会腐烂。&lt;/li&gt;
+  &lt;li&gt;石虾：不在洞穴时移除生育能力。&lt;/li&gt;
+  &lt;li&gt;蜜蜂：攻击范围调整(3-&amp;gt;0.6)。&lt;/li&gt;
+  &lt;li&gt;鸭子窝：移除“大脚”踩死小鸭子后生成的鸭子窝。&lt;/li&gt;
+  &lt;li&gt;渡渡鸟巢：渡渡鸟少于两只时，建造的鸟巢会有蛋。&lt;/li&gt;
+  &lt;li&gt;锤子：攻击围墙会使之“降低”；敲击“残血”围墙会“修复”。&lt;/li&gt;
+  &lt;li&gt;瞬移法杖：(布局优化启用时)点击“使用”按钮向“光标”瞬移。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;其他优化&quot;&gt;【其他优化】&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;优化容器内数字大小。&lt;/li&gt;
+  &lt;li&gt;修复猎犬时间错乱的问题。&lt;/li&gt;
+  &lt;li&gt;修复某些音效无限播放的问题。&lt;/li&gt;
+  &lt;li&gt;新增角色“解锁”、讣告“清空”按钮。&lt;/li&gt;
+  &lt;li&gt;修复浆果帽、蜗牛甲不能使用的问题。&lt;/li&gt;
+  &lt;li&gt;修复冰箱、烹饪锅交换物品消失的问题。&lt;/li&gt;
+  &lt;li&gt;急救模式：快速点击轮盘，会保存并退出。&lt;/li&gt;
+  &lt;li&gt;月圆时间：第11、12天月圆，周期为20天。&lt;/li&gt;
+  &lt;li&gt;存档目录：(设置界面)修改存档的保存路径。&lt;br /&gt;
+　默认目录：”/data/data/…”&lt;br /&gt;
+　外部目录：”/sdcard/Android/data/…”&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/page/post/readme.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/page/post/readme.html</guid>
+        
+        <category>资讯</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>模组更新</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;模组更新日志……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2024.12.02&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;BM172 修复“海上修船器”无法工作的问题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2024.11.27&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;BM300 修复“信息面板”无法使用的问题。&lt;/li&gt;
+  &lt;li&gt;BM110 修复“简易血条”无法使用的问题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2024.11.26&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;BM035 修复“狐狸面具”添加燃料会崩溃的问题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2024.11. 23&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;BM387 修复最后一支“箭”可以无限使用的问题；修复装备“箭袋”进入存档会崩溃的问题。&lt;/li&gt;
+  &lt;li&gt;BM322 调整容器格子位置；已知问题：点击贴图中心无法打开容器(需要点击贴图左下角)。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Wed, 01 Jan 2025 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/page/post/mod-update-log.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/page/post/mod-update-log.html</guid>
+        
+        <category>日志</category>
+        
+        <category>模组</category>
+        
+        <category>置顶</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM000 兔人优化包</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;兔人优化包&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[BM000] 兔人优化包&lt;br /&gt;
+夸克网盘：&lt;a href=&quot;https://pan.quark.cn/s/c4324d6abe8d&quot;&gt;下载链接&lt;/a&gt; 提取码：6y2w&lt;br /&gt;
+百度网盘：&lt;a href=&quot;https://pan.baidu.com/s/1Au7c3iAFX6paST-OC8owpw&quot;&gt;下载链接&lt;/a&gt; 提取码：otfc&lt;br /&gt;
+迅雷网盘：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbZ1m5YAO0PtoC5EGP3zbA1&quot;&gt;下载链接&lt;/a&gt; 提取码：7ih5&lt;br /&gt;
+123网盘：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;下载链接&lt;/a&gt; 提取码：ZFyG&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;内容有待更新…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;为避免损坏存档，使用前请备份游戏存档。&lt;br /&gt;
+可能与其他模组存在冲突，建议单独测试。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/page/post/BM000-%E5%85%94%E4%BA%BA%E4%BC%98%E5%8C%96%E5%8C%85.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/page/post/BM000-%E5%85%94%E4%BA%BA%E4%BC%98%E5%8C%96%E5%8C%85.html</guid>
+        
+        <category>模组</category>
+        
+        <category>其他</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM001 TMI测试工具</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;TMI测试工具&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[BM001] TMI测试工具&lt;br /&gt;
+夸克网盘：&lt;a href=&quot;https://pan.quark.cn/s/86f419e63140&quot;&gt;下载链接&lt;/a&gt; 提取码：35ll&lt;br /&gt;
+百度网盘：&lt;a href=&quot;https://pan.baidu.com/s/1L5DQzkMmTT1reY0r_9Co7Q&quot;&gt;下载链接&lt;/a&gt; 提取码：otfc&lt;br /&gt;
+迅雷网盘：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbZ4ZjbWKonQdIG7O2YcUA1&quot;&gt;下载链接&lt;/a&gt; 提取码：qynx&lt;br /&gt;
+123网盘：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;下载链接&lt;/a&gt; 提取码：ZFyG&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;内容有待更新…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;为避免损坏存档，使用前请备份游戏存档。&lt;br /&gt;
+可能与其他模组存在冲突，建议单独测试。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/page/post/BM001-TMI%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/page/post/BM001-TMI%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7.html</guid>
+        
+        <category>模组</category>
+        
+        <category>辅助</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM002 荒岛</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;荒岛&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[BM002] 荒岛&lt;br /&gt;
+夸克网盘：&lt;a href=&quot;https://pan.quark.cn/s/47099c1e4212&quot;&gt;下载链接&lt;/a&gt; 提取码：3ikb&lt;br /&gt;
+百度网盘：&lt;a href=&quot;https://pan.baidu.com/s/1ZmH-oMs_wNm3U3Khm7mqlw&quot;&gt;下载链接&lt;/a&gt; 提取码：otfc&lt;br /&gt;
+迅雷网盘：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbZ7LC9p9X5MA-wNlTVl4A1&quot;&gt;下载链接&lt;/a&gt; 提取码：5n8f&lt;br /&gt;
+123网盘：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;下载链接&lt;/a&gt; 提取码：ZFyG&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;内容有待更新…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;为避免损坏存档，使用前请备份游戏存档。&lt;br /&gt;
+可能与其他模组存在冲突，建议单独测试。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/page/post/BM002-%E8%8D%92%E5%B2%9B.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/page/post/BM002-%E8%8D%92%E5%B2%9B.html</guid>
+        
+        <category>模组</category>
+        
+        <category>玩法</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>BM003 综合状态显示</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文介绍模组 &lt;strong&gt;综合状态显示&lt;/strong&gt; 的功能与特点，帮助玩家快速了解并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;文件下载&quot;&gt;文件下载&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[BM003] 综合状态显示&lt;br /&gt;
+夸克网盘：&lt;a href=&quot;https://pan.quark.cn/s/cb4eacccdb19&quot;&gt;下载链接&lt;/a&gt; 提取码：musq&lt;br /&gt;
+百度网盘：&lt;a href=&quot;https://pan.baidu.com/s/1dO6WC6IC9904Q-2F0_SNpQ&quot;&gt;下载链接&lt;/a&gt; 提取码：otfc&lt;br /&gt;
+迅雷网盘：&lt;a href=&quot;https://pan.xunlei.com/s/VOCCbZACXdAt6kK_zGb_uMi0A1&quot;&gt;下载链接&lt;/a&gt; 提取码：qdbw&lt;br /&gt;
+123网盘：&lt;a href=&quot;https://www.123pan.com/s/IC8lVv-ftuAv.html&quot;&gt;下载链接&lt;/a&gt; 提取码：ZFyG&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;模组简介&quot;&gt;模组简介&lt;/h2&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;内容有待更新…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;为避免损坏存档，使用前请备份游戏存档。&lt;br /&gt;
+可能与其他模组存在冲突，建议单独测试。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
+        <link>https://otfo.cc/b/page/post/BM003-%E7%BB%BC%E5%90%88%E7%8A%B6%E6%80%81%E6%98%BE%E7%A4%BA.html</link>
+        <guid isPermaLink="true">https://otfo.cc/b/page/post/BM003-%E7%BB%BC%E5%90%88%E7%8A%B6%E6%80%81%E6%98%BE%E7%A4%BA.html</guid>
+        
+        <category>模组</category>
+        
+        <category>辅助</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

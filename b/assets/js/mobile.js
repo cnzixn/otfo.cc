@@ -1,0 +1,1 @@
+function isMobile(){return/Mobi|Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(window.navigator.userAgent)}function is404Page(){return"/404"===window.location.pathname||document.body.innerHTML.indexOf("404")>-1}isMobile()||is404Page()||(window.location.href="/404");
